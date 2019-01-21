@@ -38,9 +38,13 @@ function getData (byDigest, cache, key, opts) {
       size: memoized.entry.size
     })
   }
-  return (
-    byDigest ? BB.resolve(null) : index.find(cache, key, opts)
-  ).then(entry => {
+  let promise;
+  if (byDigest) {
+    promise = BB.resolve(null)
+  } else {
+    promise = index.find(cache, key, opts)
+  }
+  return promise.then(entry => {
     if (!entry && !byDigest) {
       throw new index.NotFoundError(cache, key)
     }

@@ -11,6 +11,8 @@ const PutOpts = figgyPudding({
     default: ['sha512']
   },
   integrity: {},
+  existKey: {},
+  existIntegrity: {},
   memoize: {},
   metadata: {},
   pickAlgorithm: {},
@@ -63,13 +65,24 @@ function putStream (cache, key, opts) {
     })
   }, cb => {
     contentStream.end(() => {
-      index.insert(cache, key, integrity, opts.concat({size})).then(entry => {
-        if (opts.memoize) {
-          memo.put(cache, entry, Buffer.concat(memoData, memoTotal), opts)
-        }
-        stream.emit('integrity', integrity)
-        cb()
-      })
+      // avoid growing index arbitrary
+      const sameKey = opts.existKey && opts.existKey === key;
+      // not same key or same integrity => must update index entry
+      // technically the key can't be different.
+      if (!sameKey || !(opts.existIntegrity && opts.existIntegrity === integrity.toString())) {
+        index.insert(cache, key, integrity, opts.concat({size})).then(entry => {
+          if (opts.memoize) {
+            memo.put(cache, entry, Buffer.concat(memoData, memoTotal), opts)
+          }
+          stream.emit('integrity', integrity)
+          cb()
+        })
+      } else {
+        process.nextTick(() => {
+          stream.emit('integrity', integrity)
+          cb()
+        })
+      }
     })
   })
   let erred = false
