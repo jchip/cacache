@@ -55,7 +55,8 @@ function getData (byDigest, cache, key, opts) {
       metadata: entry.metadata,
       data: data,
       size: entry.size,
-      integrity: entry.integrity
+      integrity: entry.integrity,
+      refreshTime: entry.refreshTime
     }).then(res => {
       if (opts.memoize && byDigest) {
         memo.put.byDigest(cache, key, res, opts)

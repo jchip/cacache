@@ -8,6 +8,7 @@ const verify = require('../verify.js')
 const setLocale = require('../lib/util/y.js').setLocale
 const clearMemoized = require('../lib/memoization.js').clearMemoized
 const tmp = require('../lib/util/tmp.js')
+const index = require("../lib/entry-index")
 
 setLocale('en')
 
@@ -30,6 +31,9 @@ x.get.hasContent.sync = (cache, hash) => get.hasContent.sync(cache, hash)
 
 x.put = (cache, key, data, opts) => put(cache, key, data, opts)
 x.put.stream = (cache, key, opts) => put.stream(cache, key, opts)
+
+x.refresh = (cache, key) => index.refresh(cache, key)
+x.refresh.sync = (cache, key) => index.refresh.sync(cache, key)
 
 x.rm = (cache, key) => rm.entry(cache, key)
 x.rm.all = cache => rm.all(cache)

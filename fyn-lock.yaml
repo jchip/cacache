@@ -1,0 +1,4259 @@
+$pkg:
+ dep:
+  bluebird: ^3.5.3
+  chownr: ^1.1.1
+  figgy-pudding: ^3.5.1
+  glob: ^7.1.3
+  graceful-fs: ^4.1.15
+  lru-cache: ^5.1.1
+  mississippi: ^3.0.0
+  mkdirp: ^0.5.1
+  move-concurrently: ^1.0.1
+  promise-inflight: ^1.0.1
+  rimraf: ^2.6.2
+  ssri: ^6.0.1
+  unique-filename: ^1.1.1
+  y18n: ^4.0.0
+ dev:
+  benchmark: ^2.1.4
+  chalk: ^2.3.2
+  cross-env: ^5.1.4
+  require-inject: ^1.4.2
+  standard: ^11.0.1
+  standard-version: ^4.4.0
+  tacks: ^1.2.7
+  tap: ^12.1.1
+  weallbehave: ^1.2.0
+  weallcontribute: ^1.0.8
+JSONStream:
+ _latest: 1.3.5
+ _:
+  ^1.0.4: 1.3.3
+ 1.3.3:
+  $: sha512-3Sp6WZZ/lXl+nTDoGpGWHEpTnnC6X5fnkolYZR6nwIfzbxxvA8utPWe1gCt7i0m9uVGsSz2IS8K8mJ7HmlduMg==
+  _: 'https://npme.walmart.com/JSONStream/-/JSONStream-1.3.3.tgz'
+  dependencies:
+   jsonparse: ^1.2.0
+   through: '>=2.2.7 <3'
+acorn:
+ _latest: 8.4.1
+ _:
+  ^3.0.4: 3.3.0
+  ^5.5.0: 5.5.3
+ 5.5.3:
+  $: sha512-jd5MkIUlbbmb07nXH0DT3y7rDVtkzDi4XZOUVWAer8ajmF/DTSSbl5oNFyDOl/OXA33Bl79+ypHhl2pN20VeOQ==
+  _: 'https://npme.walmart.com/acorn/-/acorn-5.5.3.tgz'
+ 3.3.0:
+  $: sha1-ReN/s56No/JbruP/U2niu18iAXo=
+  _: 'https://npme.walmart.com/acorn/-/acorn-3.3.0.tgz'
+acorn-jsx:
+ _latest: 5.3.2
+ _:
+  ^3.0.0: 3.0.1
+ 3.0.1:
+  $: sha1-r9+UiPsezvyDSPb7IvRk4ypYs2s=
+  _: 'https://npme.walmart.com/acorn-jsx/-/acorn-jsx-3.0.1.tgz'
+  dependencies:
+   acorn: ^3.0.4
+ajv:
+ _latest: 8.6.2
+ _:
+  '^5.2.3,^5.3.0': 5.5.2
+  ^6.5.5: 6.12.6
+ 6.12.6:
+  $: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
+  _: 'https://npme.walmart.com/ajv/-/ajv-6.12.6.tgz'
+  dependencies:
+   fast-deep-equal: ^3.1.1
+   fast-json-stable-stringify: ^2.0.0
+   json-schema-traverse: ^0.4.1
+   uri-js: ^4.2.2
+ 5.5.2:
+  $: sha1-c7Xuyj+rZT49P5Qis0GtQiBdyWU=
+  _: 'https://npme.walmart.com/ajv/-/ajv-5.5.2.tgz'
+  dependencies:
+   co: ^4.6.0
+   fast-deep-equal: ^1.0.0
+   fast-json-stable-stringify: ^2.0.0
+   json-schema-traverse: ^0.3.0
+ajv-keywords:
+ _latest: 5.0.0
+ _:
+  ^2.1.0: 2.1.1
+ 2.1.1:
+  $: sha1-YXmX/F9gV2iUxDX5QNgZ4TW4B2I=
+  _: 'https://npme.walmart.com/ajv-keywords/-/ajv-keywords-2.1.1.tgz'
+  peerDependencies:
+   ajv: ^5.0.0
+align-text:
+ _latest: 1.0.2
+ _:
+  '^0.1.1,^0.1.3': 0.1.4
+ 0.1.4:
+  $: sha1-DNkKVhCT810KmSVsIrcGlDP60Rc=
+  _: 'https://npme.walmart.com/align-text/-/align-text-0.1.4.tgz'
+  dependencies:
+   kind-of: ^3.0.2
+   longest: ^1.0.1
+   repeat-string: ^1.5.2
+amdefine:
+ _latest: 1.0.1
+ _:
+  '>=0.0.4': 1.0.1
+ 1.0.1:
+  $: sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
+  _: 'https://npme.walmart.com/amdefine/-/amdefine-1.0.1.tgz'
+ansi-escapes:
+ _latest: 5.0.0
+ _:
+  ^3.0.0: 3.1.0
+ 3.1.0:
+  $: sha512-UgAb8H9D41AQnu/PbWlCofQVcnV4Gs2bBJi9eZPxfU/hgglFh3SMDMENRIqdr7H6XFnXdoknctFByVsCOotTVw==
+  _: 'https://npme.walmart.com/ansi-escapes/-/ansi-escapes-3.1.0.tgz'
+ansi-regex:
+ _latest: 6.0.0
+ _:
+  ^2.0.0: 2.1.1
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha1-7QMXwyIGT3lGbAKWa922Bas32Zg=
+  _: 'https://npme.walmart.com/ansi-regex/-/ansi-regex-3.0.0.tgz'
+ 2.1.1:
+  $: sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
+  _: 'https://npme.walmart.com/ansi-regex/-/ansi-regex-2.1.1.tgz'
+ansi-styles:
+ _latest: 6.1.0
+ _:
+  ^2.2.1: 2.2.1
+  ^3.2.1: 3.2.1
+ 3.2.1:
+  $: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==
+  _: 'https://npme.walmart.com/ansi-styles/-/ansi-styles-3.2.1.tgz'
+  dependencies:
+   color-convert: ^1.9.0
+ 2.2.1:
+  $: sha1-tDLdM1i2NM914eRmQ2gkBTPB3b4=
+  _: 'https://npme.walmart.com/ansi-styles/-/ansi-styles-2.2.1.tgz'
+aproba:
+ _latest: 2.0.0
+ _:
+  ^1.1.1: 1.1.1
+ 1.1.1:
+  $: sha1-ldNgDwdxCqDpKYxyatXs8urLq6s=
+  _: 'https://npme.walmart.com/aproba/-/aproba-1.1.1.tgz'
+argparse:
+ _latest: 2.0.1
+ _:
+  ^1.0.7: 1.0.10
+ 1.0.10:
+  $: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
+  _: 'https://npme.walmart.com/argparse/-/argparse-1.0.10.tgz'
+  dependencies:
+   sprintf-js: ~1.0.2
+array-find-index:
+ _latest: 1.0.2
+ _:
+  ^1.0.1: 1.0.2
+ 1.0.2:
+  $: sha1-3wEKoSh+Fku9pvlyOwqWoexBh6E=
+  _: 'https://npme.walmart.com/array-find-index/-/array-find-index-1.0.2.tgz'
+array-ify:
+ _latest: 1.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-nlKHYrSpBmrRY6aWKjZEGOlibs4=
+  _: 'https://npme.walmart.com/array-ify/-/array-ify-1.0.0.tgz'
+array-includes:
+ _latest: 3.1.3
+ _:
+  ^3.0.3: 3.0.3
+ 3.0.3:
+  $: sha1-GEtI9i2S10UrsxsyMWXH+L0CJm0=
+  _: 'https://npme.walmart.com/array-includes/-/array-includes-3.0.3.tgz'
+  dependencies:
+   define-properties: ^1.1.2
+   es-abstract: ^1.7.0
+array-union:
+ _latest: 3.0.1
+ _:
+  ^1.0.1: 1.0.2
+ 1.0.2:
+  $: sha1-mjRBDk9OPaI96jdb5b5w8kd47Dk=
+  _: 'https://npme.walmart.com/array-union/-/array-union-1.0.2.tgz'
+  dependencies:
+   array-uniq: ^1.0.1
+array-uniq:
+ _latest: 3.0.0
+ _:
+  ^1.0.1: 1.0.3
+ 1.0.3:
+  $: sha1-r2rId6Jcx/dOBYiUdThY39sk/bY=
+  _: 'https://npme.walmart.com/array-uniq/-/array-uniq-1.0.3.tgz'
+arrify:
+ _latest: 3.0.0
+ _:
+  '^1.0.0,^1.0.1': 1.0.1
+ 1.0.1:
+  $: sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
+  _: 'https://npme.walmart.com/arrify/-/arrify-1.0.1.tgz'
+asap:
+ _latest: 2.0.6
+ _:
+  ~2.0.3: 2.0.6
+ 2.0.6:
+  $: sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
+  _: 'https://npme.walmart.com/asap/-/asap-2.0.6.tgz'
+asn1:
+ _latest: 0.2.4
+ _:
+  ~0.2.3: 0.2.4
+ 0.2.4:
+  $: sha512-jxwzQpLQjSmWXgwaCZE9Nz+glAG01yF1QnWgbhGwHI5A6FRIEY6IVqtHhIepHqI7/kyEyQEagBC5mBEFlIYvdg==
+  _: 'https://npme.walmart.com/asn1/-/asn1-0.2.4.tgz'
+  dependencies:
+   safer-buffer: ~2.1.0
+assert-plus:
+ _latest: 1.0.0
+ _:
+  '1.0.0,^1.0.0': 1.0.0
+ 1.0.0:
+  $: sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
+  _: 'https://npme.walmart.com/assert-plus/-/assert-plus-1.0.0.tgz'
+async:
+ _latest: 3.2.1
+ _:
+  ^1.4.0: 1.5.2
+ 1.5.2:
+  $: sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
+  _: 'https://npme.walmart.com/async/-/async-1.5.2.tgz'
+asynckit:
+ _latest: 0.4.0
+ _:
+  ^0.4.0: 0.4.0
+ 0.4.0:
+  $: sha1-x57Zf380y48robyXkLzDZkdLS3k=
+  _: 'https://npme.walmart.com/asynckit/-/asynckit-0.4.0.tgz'
+aws-sign2:
+ _latest: 0.7.0
+ _:
+  ~0.7.0: 0.7.0
+ 0.7.0:
+  $: sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
+  _: 'https://npme.walmart.com/aws-sign2/-/aws-sign2-0.7.0.tgz'
+aws4:
+ _latest: 1.11.0
+ _:
+  ^1.8.0: 1.8.0
+ 1.8.0:
+  $: sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
+  _: 'https://npme.walmart.com/aws4/-/aws4-1.8.0.tgz'
+babel-code-frame:
+ _latest: 6.26.0
+ _:
+  ^6.22.0: 6.26.0
+ 6.26.0:
+  $: sha1-Y/1D99weO7fONZR9uP42mj9Yx0s=
+  _: 'https://npme.walmart.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz'
+  dependencies:
+   chalk: ^1.1.3
+   esutils: ^2.0.2
+   js-tokens: ^3.0.2
+balanced-match:
+ _latest: 2.0.0
+ _:
+  ^0.4.1: 0.4.2
+ 0.4.2:
+  $: sha1-yz8+PHMtwPAe5wtAPzAuYddwmDg=
+  _: 'https://npme.walmart.com/balanced-match/-/balanced-match-0.4.2.tgz'
+bcrypt-pbkdf:
+ _latest: 1.0.2
+ _:
+  ^1.0.0: 1.0.2
+ 1.0.2:
+  $: sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
+  _: 'https://npme.walmart.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz'
+  dependencies:
+   tweetnacl: ^0.14.3
+benchmark:
+ _latest: 2.1.4
+ _:
+  ^2.1.4: 2.1.4
+ 2.1.4:
+  top: 1
+  $: sha1-CfPeMckWQl1JjMLuVloOvzwqVik=
+  _: 'https://npme.walmart.com/benchmark/-/benchmark-2.1.4.tgz'
+  dependencies:
+   lodash: ^4.17.4
+   platform: ^1.3.3
+bind-obj-methods:
+ _latest: 3.0.0
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha512-3/qRXczDi2Cdbz6jE+W3IflJOutRVica8frpBn14de1mBOkzDo+6tY33kNhvkw54Kn3PzRRD2VnGbGPcTAk4sw==
+  _: 'https://npme.walmart.com/bind-obj-methods/-/bind-obj-methods-2.0.0.tgz'
+bluebird:
+ _latest: 3.7.2
+ _:
+  ^3.5.3: 3.5.3
+ 3.5.3:
+  top: 1
+  $: sha512-/qKPUQlaW1OyR51WeCPBvRnAlnZFUJkCSG5HzGnuIqhgyJtF+T94lFnn33eiazjRm2LAHVy2guNnaq48X9SJuw==
+  _: 'https://npme.walmart.com/bluebird/-/bluebird-3.5.3.tgz'
+brace-expansion:
+ _latest: 2.0.1
+ _:
+  ^1.1.7: 1.1.7
+ 1.1.7:
+  $: sha1-Pv/DxQ4ABTH7cg6v+A8K6O8jz1k=
+  _: 'https://npme.walmart.com/brace-expansion/-/brace-expansion-1.1.7.tgz'
+  dependencies:
+   balanced-match: ^0.4.1
+   concat-map: 0.0.1
+browser-process-hrtime:
+ _latest: 1.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
+  _: 'https://npme.walmart.com/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz'
+buffer-from:
+ _latest: 1.1.2
+ _:
+  ^1.0.0: 1.1.1
+ 1.1.1:
+  $: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  _: 'https://npme.walmart.com/buffer-from/-/buffer-from-1.1.1.tgz'
+buffer-shims:
+ _latest: 1.0.0
+ _:
+  ~1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-mXjOMXOIxkmth5MCjDR37wRKi1E=
+  _: 'https://npme.walmart.com/buffer-shims/-/buffer-shims-1.0.0.tgz'
+builtin-modules:
+ _latest: 3.2.0
+ _:
+  '^1.0.0,^1.1.1': 1.1.1
+ 1.1.1:
+  $: sha1-Jw8HbFpywC9bZaR9+Uxf46J4iS8=
+  _: 'https://npme.walmart.com/builtin-modules/-/builtin-modules-1.1.1.tgz'
+caller:
+ _latest: 1.0.1
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-uFGGD3Dhlds9J3OVqhp+I+ow7PU=
+  _: 'https://npme.walmart.com/caller/-/caller-1.0.1.tgz'
+caller-path:
+ _latest: 3.0.1
+ _:
+  ^0.1.0: 0.1.0
+ 0.1.0:
+  $: sha1-lAhe9jWB7NPaqSREqP6U6CV3dR8=
+  _: 'https://npme.walmart.com/caller-path/-/caller-path-0.1.0.tgz'
+  dependencies:
+   callsites: ^0.2.0
+callsites:
+ _latest: 4.0.0
+ _:
+  ^0.2.0: 0.2.0
+ 0.2.0:
+  $: sha1-r6uWJikQp/M8GaV3WCXGnzTjUMo=
+  _: 'https://npme.walmart.com/callsites/-/callsites-0.2.0.tgz'
+camelcase:
+ _latest: 6.2.0
+ _:
+  ^1.0.2: 1.2.1
+  ^2.0.0: 2.1.1
+  ^3.0.0: 3.0.0
+  ^4.1.0: 4.1.0
+ 4.1.0:
+  $: sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
+  _: 'https://npme.walmart.com/camelcase/-/camelcase-4.1.0.tgz'
+ 3.0.0:
+  $: sha1-MvxLn82vhF/N9+c7uXysImHwqwo=
+  _: 'https://npme.walmart.com/camelcase/-/camelcase-3.0.0.tgz'
+ 2.1.1:
+  $: sha1-fB0W1nmhu+WcoCys7PsBHiAfWh8=
+  _: 'https://npme.walmart.com/camelcase/-/camelcase-2.1.1.tgz'
+ 1.2.1:
+  $: sha1-m7UwTS4LVmmLLHWLCKPqqdqlijk=
+  _: 'https://npme.walmart.com/camelcase/-/camelcase-1.2.1.tgz'
+camelcase-keys:
+ _latest: 7.0.0
+ _:
+  ^2.0.0: 2.1.0
+  ^4.0.0: 4.2.0
+ 4.2.0:
+  $: sha1-oqpfsa9oh1glnDLBQUJteJI7m3c=
+  _: 'https://npme.walmart.com/camelcase-keys/-/camelcase-keys-4.2.0.tgz'
+  dependencies:
+   camelcase: ^4.1.0
+   map-obj: ^2.0.0
+   quick-lru: ^1.0.0
+ 2.1.0:
+  $: sha1-MIvur/3ygRkFHvodkyITyRuPkuc=
+  _: 'https://npme.walmart.com/camelcase-keys/-/camelcase-keys-2.1.0.tgz'
+  dependencies:
+   camelcase: ^2.0.0
+   map-obj: ^1.0.0
+capture-stack-trace:
+ _latest: 1.0.1
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha512-mYQLZnx5Qt1JgB1WEiMCf2647plpGeQ2NMR/5L0HNZzGQo4fuSPnK+wjfPnKZV0aiJDgzmWqqkV/g7JD+DW0qw==
+  _: 'https://npme.walmart.com/capture-stack-trace/-/capture-stack-trace-1.0.1.tgz'
+caseless:
+ _latest: 0.12.0
+ _:
+  ~0.12.0: 0.12.0
+ 0.12.0:
+  $: sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
+  _: 'https://npme.walmart.com/caseless/-/caseless-0.12.0.tgz'
+center-align:
+ _latest: 1.0.1
+ _:
+  ^0.1.1: 0.1.3
+ 0.1.3:
+  $: sha1-qg0yYptu6XIgBBHL1EYckHvCt60=
+  _: 'https://npme.walmart.com/center-align/-/center-align-0.1.3.tgz'
+  dependencies:
+   align-text: ^0.1.3
+   lazy-cache: ^1.0.3
+chalk:
+ _latest: 4.1.2
+ _:
+  ^1.1.3: 1.1.3
+  '^2.0.0,^2.1.0,^2.3.2': 2.4.1
+ 2.4.1:
+  top: 1
+  $: sha512-ObN6h1v2fTJSmUXoS3nMQ92LbDK9be4TV+6G+omQlGJFdcUX5heKi1LZ1YnRMIgwTLEj3E24bT6tYni50rlCfQ==
+  _: 'https://npme.walmart.com/chalk/-/chalk-2.4.1.tgz'
+  dependencies:
+   ansi-styles: ^3.2.1
+   escape-string-regexp: ^1.0.5
+   supports-color: ^5.3.0
+ 1.1.3:
+  $: sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg=
+  _: 'https://npme.walmart.com/chalk/-/chalk-1.1.3.tgz'
+  dependencies:
+   ansi-styles: ^2.2.1
+   escape-string-regexp: ^1.0.2
+   has-ansi: ^2.0.0
+   strip-ansi: ^3.0.0
+   supports-color: ^2.0.0
+chardet:
+ _latest: 1.3.0
+ _:
+  ^0.4.0: 0.4.2
+ 0.4.2:
+  $: sha1-tUc7M9yXxCTl2Y3IfVXU2KKci/I=
+  _: 'https://npme.walmart.com/chardet/-/chardet-0.4.2.tgz'
+chownr:
+ _latest: 2.0.0
+ _:
+  ^1.1.1: 1.1.1
+ 1.1.1:
+  top: 1
+  $: sha512-j38EvO5+LHX84jlo6h4UzmOwi0UgW61WRyPtJz4qaadK5eY3BTS5TY/S1Stc3Uk2lIM6TPevAlULiEJwie860g==
+  _: 'https://npme.walmart.com/chownr/-/chownr-1.1.1.tgz'
+circular-json:
+ _latest: 0.5.9
+ _:
+  ^0.3.1: 0.3.3
+ 0.3.3:
+  $: sha512-UZK3NBx2Mca+b5LsG7bY183pHWt5Y1xts4P3Pz7ENTwGVnJOUWbRb3ocjvX7hx9tq/yTAdclXm9sZ38gNuem4A==
+  _: 'https://npme.walmart.com/circular-json/-/circular-json-0.3.3.tgz'
+  deprecated: 'CircularJSON is in maintenance only, flatted is its successor.'
+clean-yaml-object:
+ _latest: 0.1.0
+ _:
+  ^0.1.0: 0.1.0
+ 0.1.0:
+  $: sha1-Y/sRDcLOGoTcIfbZM0h20BCui2g=
+  _: 'https://npme.walmart.com/clean-yaml-object/-/clean-yaml-object-0.1.0.tgz'
+cli-cursor:
+ _latest: 3.1.0
+ _:
+  ^2.1.0: 2.1.0
+ 2.1.0:
+  $: sha1-s12sN2R5+sw+lHR9QdDQ9SOP/LU=
+  _: 'https://npme.walmart.com/cli-cursor/-/cli-cursor-2.1.0.tgz'
+  dependencies:
+   restore-cursor: ^2.0.0
+cli-width:
+ _latest: 3.0.0
+ _:
+  ^2.0.0: 2.2.0
+ 2.2.0:
+  $: sha1-/xnt6Kml5XkyQUewwR8PvLq+1jk=
+  _: 'https://npme.walmart.com/cli-width/-/cli-width-2.2.0.tgz'
+cliui:
+ _latest: 7.0.4
+ _:
+  ^2.1.0: 2.1.0
+  ^3.2.0: 3.2.0
+ 3.2.0:
+  $: sha1-EgYBU3qRbSmUD5NNo7SNWFo5IT0=
+  _: 'https://npme.walmart.com/cliui/-/cliui-3.2.0.tgz'
+  dependencies:
+   string-width: ^1.0.1
+   strip-ansi: ^3.0.1
+   wrap-ansi: ^2.0.0
+ 2.1.0:
+  $: sha1-S0dXYP+AJkx2LDoXGQMukcf+oNE=
+  _: 'https://npme.walmart.com/cliui/-/cliui-2.1.0.tgz'
+  dependencies:
+   center-align: ^0.1.1
+   right-align: ^0.1.1
+   wordwrap: 0.0.2
+co:
+ _latest: 4.6.0
+ _:
+  ^4.6.0: 4.6.0
+ 4.6.0:
+  $: sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ=
+  _: 'https://npme.walmart.com/co/-/co-4.6.0.tgz'
+code-point-at:
+ _latest: 1.1.0
+ _:
+  ^1.0.0: 1.1.0
+ 1.1.0:
+  $: sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
+  _: 'https://npme.walmart.com/code-point-at/-/code-point-at-1.1.0.tgz'
+color-convert:
+ _latest: 2.0.1
+ _:
+  ^1.9.0: 1.9.2
+ 1.9.2:
+  $: sha512-3NUJZdhMhcdPn8vJ9v2UQJoH0qqoGUkYTgFEPZaPjEtwmmKUfNV46zZmgB2M5M4DCEQHMaCfWHCxiBflLm04Tg==
+  _: 'https://npme.walmart.com/color-convert/-/color-convert-1.9.2.tgz'
+  dependencies:
+   color-name: 1.1.1
+color-name:
+ _latest: 1.1.4
+ _:
+  1.1.1: 1.1.1
+ 1.1.1:
+  $: sha1-SxQVMEz1ACjqgWQ2Q72C6gWANok=
+  _: 'https://npme.walmart.com/color-name/-/color-name-1.1.1.tgz'
+color-support:
+ _latest: 1.1.3
+ _:
+  ^1.1.0: 1.1.3
+ 1.1.3:
+  $: sha512-qiBjkpbMLO/HL68y+lh4q0/O1MZFj2RX6X/KmMa3+gJD3z+WwI1ZzDHysvqHGS3mP6mznPckpXmw1nI9cJjyRg==
+  _: 'https://npme.walmart.com/color-support/-/color-support-1.1.3.tgz'
+combined-stream:
+ _latest: 1.0.8
+ _:
+  '^1.0.6,~1.0.6': 1.0.7
+ 1.0.7:
+  $: sha512-brWl9y6vOB1xYPZcpZde3N9zDByXTosAeMDo4p1wzo6UMOX4vumB+TP1RZ76sfE6Md68Q0NJSrE/gbezd4Ul+w==
+  _: 'https://npme.walmart.com/combined-stream/-/combined-stream-1.0.7.tgz'
+  dependencies:
+   delayed-stream: ~1.0.0
+compare-func:
+ _latest: 2.0.0
+ _:
+  ^1.3.1: 1.3.2
+ 1.3.2:
+  $: sha1-md0LpFfh+bxyKxLAjsM+6rMfpkg=
+  _: 'https://npme.walmart.com/compare-func/-/compare-func-1.3.2.tgz'
+  dependencies:
+   array-ify: ^1.0.0
+   dot-prop: ^3.0.0
+concat-map:
+ _latest: 0.0.1
+ _:
+  0.0.1: 0.0.1
+ 0.0.1:
+  $: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+  _: 'https://npme.walmart.com/concat-map/-/concat-map-0.0.1.tgz'
+concat-stream:
+ _latest: 2.0.0
+ _:
+  '^1.4.10,^1.5.0,^1.6.0': 1.6.0
+ 1.6.0:
+  $: sha1-CqxmL9Ur54lk1VMvaUeE5wEQrPc=
+  _: 'https://npme.walmart.com/concat-stream/-/concat-stream-1.6.0.tgz'
+  dependencies:
+   inherits: ^2.0.3
+   typedarray: ^0.0.6
+   readable-stream: ^2.2.2
+contains-path:
+ _latest: 1.0.0
+ _:
+  ^0.1.0: 0.1.0
+ 0.1.0:
+  $: sha1-/ozxhP9mcLa67wGp1IYaXL7EEgo=
+  _: 'https://npme.walmart.com/contains-path/-/contains-path-0.1.0.tgz'
+conventional-changelog:
+ _latest: 3.1.24
+ _:
+  ^1.1.0: 1.1.24
+ 1.1.24:
+  $: sha512-2WcSUst4Y3Z4hHvoMTWXMJr/DmgVdLiMOVY1Kak2LfFz+GIz2KDp5naqbFesYbfXPmaZ5p491dO0FWZIJoJw1Q==
+  _: 'https://npme.walmart.com/conventional-changelog/-/conventional-changelog-1.1.24.tgz'
+  dependencies:
+   conventional-changelog-angular: ^1.6.6
+   conventional-changelog-atom: ^0.2.8
+   conventional-changelog-codemirror: ^0.3.8
+   conventional-changelog-core: ^2.0.11
+   conventional-changelog-ember: ^0.3.12
+   conventional-changelog-eslint: ^1.0.9
+   conventional-changelog-express: ^0.3.6
+   conventional-changelog-jquery: ^0.1.0
+   conventional-changelog-jscs: ^0.1.0
+   conventional-changelog-jshint: ^0.3.8
+   conventional-changelog-preset-loader: ^1.1.8
+conventional-changelog-angular:
+ _latest: 5.0.12
+ _:
+  ^1.6.6: 1.6.6
+ 1.6.6:
+  $: sha512-suQnFSqCxRwyBxY68pYTsFkG0taIdinHLNEAX5ivtw8bCRnIgnpvcHmlR/yjUyZIrNPYAoXlY1WiEKWgSE4BNg==
+  _: 'https://npme.walmart.com/conventional-changelog-angular/-/conventional-changelog-angular-1.6.6.tgz'
+  dependencies:
+   compare-func: ^1.3.1
+   q: ^1.5.1
+conventional-changelog-atom:
+ _latest: 2.0.8
+ _:
+  ^0.2.8: 0.2.8
+ 0.2.8:
+  $: sha512-8pPZqhMbrnltNBizjoDCb/Sz85KyUXNDQxuAEYAU5V/eHn0okMBVjqc8aHWYpHrytyZWvMGbayOlDv7i8kEf6g==
+  _: 'https://npme.walmart.com/conventional-changelog-atom/-/conventional-changelog-atom-0.2.8.tgz'
+  dependencies:
+   q: ^1.5.1
+conventional-changelog-codemirror:
+ _latest: 2.0.8
+ _:
+  ^0.3.8: 0.3.8
+ 0.3.8:
+  $: sha512-3HFZKtBXTaUCHvz7ai6nk2+psRIkldDoNzCsom0egDtVmPsvvHZkzjynhdQyULfacRSsBTaiQ0ol6nBOL4dDiQ==
+  _: 'https://npme.walmart.com/conventional-changelog-codemirror/-/conventional-changelog-codemirror-0.3.8.tgz'
+  dependencies:
+   q: ^1.5.1
+conventional-changelog-core:
+ _latest: 4.2.3
+ _:
+  ^2.0.11: 2.0.11
+ 2.0.11:
+  $: sha512-HvTE6RlqeEZ/NFPtQeFLsIDOLrGP3bXYr7lFLMhCVsbduF1MXIe8OODkwMFyo1i9ku9NWBwVnVn0jDmIFXjDRg==
+  _: 'https://npme.walmart.com/conventional-changelog-core/-/conventional-changelog-core-2.0.11.tgz'
+  dependencies:
+   conventional-changelog-writer: ^3.0.9
+   conventional-commits-parser: ^2.1.7
+   dateformat: ^3.0.0
+   get-pkg-repo: ^1.0.0
+   git-raw-commits: ^1.3.6
+   git-remote-origin-url: ^2.0.0
+   git-semver-tags: ^1.3.6
+   lodash: ^4.2.1
+   normalize-package-data: ^2.3.5
+   q: ^1.5.1
+   read-pkg: ^1.1.0
+   read-pkg-up: ^1.0.1
+   through2: ^2.0.0
+conventional-changelog-ember:
+ _latest: 2.0.9
+ _:
+  ^0.3.12: 0.3.12
+ 0.3.12:
+  $: sha512-mmJzA7uzbrOqeF89dMMi6z17O07ORTXlTMArnLG9ZTX4oLaKNolUlxFUFlFm9JUoVWajVpaHQWjxH1EOQ+ARoQ==
+  _: 'https://npme.walmart.com/conventional-changelog-ember/-/conventional-changelog-ember-0.3.12.tgz'
+  dependencies:
+   q: ^1.5.1
+conventional-changelog-eslint:
+ _latest: 3.0.9
+ _:
+  ^1.0.9: 1.0.9
+ 1.0.9:
+  $: sha512-h87nfVh2fdk9fJIvz26wCBsbDC/KxqCc5wSlNMZbXcARtbgNbNDIF7Y7ctokFdnxkzVdaHsbINkh548T9eBA7Q==
+  _: 'https://npme.walmart.com/conventional-changelog-eslint/-/conventional-changelog-eslint-1.0.9.tgz'
+  dependencies:
+   q: ^1.5.1
+conventional-changelog-express:
+ _latest: 2.0.6
+ _:
+  ^0.3.6: 0.3.6
+ 0.3.6:
+  $: sha512-3iWVtBJZ9RnRnZveNDzOD8QRn6g6vUif0qVTWWyi5nUIAbuN1FfPVyKdAlJJfp5Im+dE8Kiy/d2SpaX/0X678Q==
+  _: 'https://npme.walmart.com/conventional-changelog-express/-/conventional-changelog-express-0.3.6.tgz'
+  dependencies:
+   q: ^1.5.1
+conventional-changelog-jquery:
+ _latest: 3.0.11
+ _:
+  ^0.1.0: 0.1.0
+ 0.1.0:
+  $: sha1-Agg5cWLjhGmG5xJztsecW1+A9RA=
+  _: 'https://npme.walmart.com/conventional-changelog-jquery/-/conventional-changelog-jquery-0.1.0.tgz'
+  dependencies:
+   q: ^1.4.1
+conventional-changelog-jscs:
+ _latest: 0.1.0
+ _:
+  ^0.1.0: 0.1.0
+ 0.1.0:
+  $: sha1-BHnrRDzH1yxYvwvPDvHURKkvDlw=
+  _: 'https://npme.walmart.com/conventional-changelog-jscs/-/conventional-changelog-jscs-0.1.0.tgz'
+  dependencies:
+   q: ^1.4.1
+conventional-changelog-jshint:
+ _latest: 2.0.9
+ _:
+  ^0.3.8: 0.3.8
+ 0.3.8:
+  $: sha512-hn9QU4ZI/5V50wKPJNPGT4gEWgiBFpV6adieILW4MaUFynuDYOvQ71EMSj3EznJyKi/KzuXpc9dGmX8njZMjig==
+  _: 'https://npme.walmart.com/conventional-changelog-jshint/-/conventional-changelog-jshint-0.3.8.tgz'
+  dependencies:
+   compare-func: ^1.3.1
+   q: ^1.5.1
+conventional-changelog-preset-loader:
+ _latest: 2.3.4
+ _:
+  ^1.1.8: 1.1.8
+ 1.1.8:
+  $: sha512-MkksM4G4YdrMlT2MbTsV2F6LXu/hZR0Tc/yenRrDIKRwBl/SP7ER4ZDlglqJsCzLJi4UonBc52Bkm5hzrOVCcw==
+  _: 'https://npme.walmart.com/conventional-changelog-preset-loader/-/conventional-changelog-preset-loader-1.1.8.tgz'
+conventional-changelog-writer:
+ _latest: 5.0.0
+ _:
+  ^3.0.9: 3.0.9
+ 3.0.9:
+  $: sha512-n9KbsxlJxRQsUnK6wIBRnARacvNnN4C/nxnxCkH+B/R1JS2Fa+DiP1dU4I59mEDEjgnFaN2+9wr1P1s7GYB5/Q==
+  _: 'https://npme.walmart.com/conventional-changelog-writer/-/conventional-changelog-writer-3.0.9.tgz'
+  dependencies:
+   compare-func: ^1.3.1
+   conventional-commits-filter: ^1.1.6
+   dateformat: ^3.0.0
+   handlebars: ^4.0.2
+   json-stringify-safe: ^5.0.1
+   lodash: ^4.2.1
+   meow: ^4.0.0
+   semver: ^5.5.0
+   split: ^1.0.0
+   through2: ^2.0.0
+conventional-commits-filter:
+ _latest: 2.0.7
+ _:
+  '^1.1.1,^1.1.6': 1.1.6
+ 1.1.6:
+  $: sha512-KcDgtCRKJCQhyk6VLT7zR+ZOyCnerfemE/CsR3iQpzRRFbLEs0Y6rwk3mpDvtOh04X223z+1xyJ582Stfct/0Q==
+  _: 'https://npme.walmart.com/conventional-commits-filter/-/conventional-commits-filter-1.1.6.tgz'
+  dependencies:
+   is-subset: ^0.1.1
+   modify-values: ^1.0.0
+conventional-commits-parser:
+ _latest: 3.2.1
+ _:
+  '^2.1.1,^2.1.7': 2.1.7
+ 2.1.7:
+  $: sha512-BoMaddIEJ6B4QVMSDu9IkVImlGOSGA1I2BQyOZHeLQ6qVOJLcLKn97+fL6dGbzWEiqDzfH4OkcveULmeq2MHFQ==
+  _: 'https://npme.walmart.com/conventional-commits-parser/-/conventional-commits-parser-2.1.7.tgz'
+  dependencies:
+   JSONStream: ^1.0.4
+   is-text-path: ^1.0.0
+   lodash: ^4.2.1
+   meow: ^4.0.0
+   split2: ^2.0.0
+   through2: ^2.0.0
+   trim-off-newlines: ^1.0.0
+conventional-recommended-bump:
+ _latest: 6.1.0
+ _:
+  ^1.0.0: 1.2.1
+ 1.2.1:
+  $: sha512-oJjG6DkRgtnr/t/VrPdzmf4XZv8c4xKVJrVT4zrSHd92KEL+EYxSbYoKq8lQ7U5yLMw7130wrcQTLRjM/T+d4w==
+  _: 'https://npme.walmart.com/conventional-recommended-bump/-/conventional-recommended-bump-1.2.1.tgz'
+  dependencies:
+   concat-stream: ^1.4.10
+   conventional-commits-filter: ^1.1.1
+   conventional-commits-parser: ^2.1.1
+   git-raw-commits: ^1.3.0
+   git-semver-tags: ^1.3.0
+   meow: ^3.3.0
+   object-assign: ^4.0.1
+copy-concurrently:
+ _latest: 1.0.5
+ _:
+  ^1.0.0: 1.0.3
+ 1.0.3:
+  $: sha1-Rft4ZiSaHKiJqlcI5svSc+dbslA=
+  _: 'https://npme.walmart.com/copy-concurrently/-/copy-concurrently-1.0.3.tgz'
+  dependencies:
+   aproba: ^1.1.1
+   fs-write-stream-atomic: ^1.0.8
+   iferr: ^0.1.5
+   mkdirp: ^0.5.1
+   rimraf: ^2.5.4
+   run-queue: ^1.0.0
+core-js:
+ _latest: 3.16.1
+ _:
+  ^1.0.0: 1.2.7
+ 1.2.7:
+  $: sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
+  _: 'https://npme.walmart.com/core-js/-/core-js-1.2.7.tgz'
+  deprecated: 'core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.'
+core-util-is:
+ _latest: 1.0.2
+ _:
+  '1.0.2,~1.0.0': 1.0.2
+ 1.0.2:
+  $: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+  _: 'https://npme.walmart.com/core-util-is/-/core-util-is-1.0.2.tgz'
+coveralls:
+ _latest: 3.1.1
+ _:
+  ^3.0.2: 3.0.2
+ 3.0.2:
+  $: sha512-Tv0LKe/MkBOilH2v7WBiTBdudg2ChfGbdXafc/s330djpF3zKOmuehTeRwjXWc7pzfj9FrDUTA7tEx6Div8NFw==
+  _: 'https://npme.walmart.com/coveralls/-/coveralls-3.0.2.tgz'
+  dependencies:
+   growl: '~> 1.10.0'
+   js-yaml: ^3.11.0
+   lcov-parse: ^0.0.10
+   log-driver: ^1.2.7
+   minimist: ^1.2.0
+   request: ^2.85.0
+cross-env:
+ _latest: 7.0.3
+ _:
+  ^5.1.4: 5.2.0
+ 5.2.0:
+  top: 1
+  $: sha512-jtdNFfFW1hB7sMhr/H6rW1Z45LFqyI431m3qU6bFXcQ3Eh7LtBuG3h74o7ohHZ3crrRkkqHlo4jYHFPcjroANg==
+  _: 'https://npme.walmart.com/cross-env/-/cross-env-5.2.0.tgz'
+  dependencies:
+   cross-spawn: ^6.0.5
+   is-windows: ^1.0.0
+cross-spawn:
+ _latest: 7.0.3
+ _:
+  ^4: 4.0.2
+  '^5.0.1,^5.1.0': 5.1.0
+  ^6.0.5: 6.0.5
+ 6.0.5:
+  $: sha512-eTVLrBSt7fjbDygz805pMnstIs2VTBNkRm0qxZd+M7A5XDdxVRWO5MxGBXZhjY4cqLYLdtrGqRf8mBPmzwSpWQ==
+  _: 'https://npme.walmart.com/cross-spawn/-/cross-spawn-6.0.5.tgz'
+  dependencies:
+   nice-try: ^1.0.4
+   path-key: ^2.0.1
+   semver: ^5.5.0
+   shebang-command: ^1.2.0
+   which: ^1.2.9
+ 5.1.0:
+  $: sha1-6L0O/uWPz/b4+UUQoKVUu/ojVEk=
+  _: 'https://npme.walmart.com/cross-spawn/-/cross-spawn-5.1.0.tgz'
+  dependencies:
+   lru-cache: ^4.0.1
+   shebang-command: ^1.2.0
+   which: ^1.2.9
+ 4.0.2:
+  $: sha1-e5JHYhwjrf3ThWAEqCPL45dCTUE=
+  _: 'https://npme.walmart.com/cross-spawn/-/cross-spawn-4.0.2.tgz'
+  dependencies:
+   lru-cache: ^4.0.1
+   which: ^1.2.9
+currently-unhandled:
+ _latest: 0.4.1
+ _:
+  ^0.4.1: 0.4.1
+ 0.4.1:
+  $: sha1-mI3zP+qxke95mmE2nddsF635V+o=
+  _: 'https://npme.walmart.com/currently-unhandled/-/currently-unhandled-0.4.1.tgz'
+  dependencies:
+   array-find-index: ^1.0.1
+cyclist:
+ _latest: 1.0.1
+ _:
+  ~0.2.2: 0.2.2
+ 0.2.2:
+  $: sha1-GzN5LhHpFKL9bW7WRHRkRE5fpkA=
+  _: 'https://npme.walmart.com/cyclist/-/cyclist-0.2.2.tgz'
+dargs:
+ _latest: 8.1.0
+ _:
+  ^4.0.1: 4.1.0
+ 4.1.0:
+  $: sha1-A6nbtLXC8Tm/FK5T8LiipqhvThc=
+  _: 'https://npme.walmart.com/dargs/-/dargs-4.1.0.tgz'
+  dependencies:
+   number-is-nan: ^1.0.0
+dashdash:
+ _latest: 2.0.0
+ _:
+  ^1.12.0: 1.14.1
+ 1.14.1:
+  $: sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
+  _: 'https://npme.walmart.com/dashdash/-/dashdash-1.14.1.tgz'
+  dependencies:
+   assert-plus: ^1.0.0
+dateformat:
+ _latest: 4.5.1
+ _:
+  ^3.0.0: 3.0.3
+ 3.0.3:
+  $: sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
+  _: 'https://npme.walmart.com/dateformat/-/dateformat-3.0.3.tgz'
+debug:
+ _latest: 4.3.2
+ _:
+  '^2.1.3,^2.6.8,^2.6.9': 2.6.9
+  ^3.1.0: 3.1.0
+ 3.1.0:
+  $: sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  _: 'https://npme.walmart.com/debug/-/debug-3.1.0.tgz'
+  dependencies:
+   ms: 2.0.0
+ 2.6.9:
+  $: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+  _: 'https://npme.walmart.com/debug/-/debug-2.6.9.tgz'
+  dependencies:
+   ms: 2.0.0
+debug-log:
+ _latest: 2.0.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha1-IwdjLUwEOCuN+KMvcLiVBG1SdF8=
+  _: 'https://npme.walmart.com/debug-log/-/debug-log-1.0.1.tgz'
+decamelize:
+ _latest: 5.0.0
+ _:
+  '^1.0.0,^1.1.0,^1.1.1,^1.1.2': 1.2.0
+ 1.2.0:
+  $: sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
+  _: 'https://npme.walmart.com/decamelize/-/decamelize-1.2.0.tgz'
+decamelize-keys:
+ _latest: 1.1.0
+ _:
+  ^1.0.0: 1.1.0
+ 1.1.0:
+  $: sha1-0XGoeTMlKAfrPLYdwcFEXQeN8tk=
+  _: 'https://npme.walmart.com/decamelize-keys/-/decamelize-keys-1.1.0.tgz'
+  dependencies:
+   decamelize: ^1.1.0
+   map-obj: ^1.0.0
+deep-is:
+ _latest: 0.1.3
+ _:
+  ~0.1.3: 0.1.3
+ 0.1.3:
+  $: sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
+  _: 'https://npme.walmart.com/deep-is/-/deep-is-0.1.3.tgz'
+define-properties:
+ _latest: 1.1.3
+ _:
+  ^1.1.2: 1.1.2
+ 1.1.2:
+  $: sha1-g6c/L+pWmJj7c3GTyPhzyvbUXJQ=
+  _: 'https://npme.walmart.com/define-properties/-/define-properties-1.1.2.tgz'
+  dependencies:
+   foreach: ^2.0.5
+   object-keys: ^1.0.8
+deglob:
+ _latest: 4.0.1
+ _:
+  ^2.1.0: 2.1.0
+ 2.1.0:
+  $: sha1-TUSr4W7zLHebSXK9FBqAMlApoUo=
+  _: 'https://npme.walmart.com/deglob/-/deglob-2.1.0.tgz'
+  dependencies:
+   find-root: ^1.0.0
+   glob: ^7.0.5
+   ignore: ^3.0.9
+   pkg-config: ^1.1.0
+   run-parallel: ^1.1.2
+   uniq: ^1.0.1
+del:
+ _latest: 6.0.0
+ _:
+  ^2.0.2: 2.2.2
+ 2.2.2:
+  $: sha1-wSyYHQZ4RshLyvhiz/kw2Qf/0ag=
+  _: 'https://npme.walmart.com/del/-/del-2.2.2.tgz'
+  dependencies:
+   globby: ^5.0.0
+   is-path-cwd: ^1.0.0
+   is-path-in-cwd: ^1.0.0
+   object-assign: ^4.0.1
+   pify: ^2.0.0
+   pinkie-promise: ^2.0.0
+   rimraf: ^2.2.8
+delayed-stream:
+ _latest: 1.0.0
+ _:
+  ~1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+  _: 'https://npme.walmart.com/delayed-stream/-/delayed-stream-1.0.0.tgz'
+diff:
+ _latest: 5.0.0
+ _:
+  ^1.3.2: 1.4.0
+ 1.4.0:
+  $: sha1-fyjS657nsVqX79ic5j3P2qPMur8=
+  _: 'https://npme.walmart.com/diff/-/diff-1.4.0.tgz'
+doctrine:
+ _latest: 3.0.0
+ _:
+  1.5.0: 1.5.0
+  '^2.0.2,^2.1.0': 2.1.0
+ 2.1.0:
+  $: sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw==
+  _: 'https://npme.walmart.com/doctrine/-/doctrine-2.1.0.tgz'
+  dependencies:
+   esutils: ^2.0.2
+ 1.5.0:
+  $: sha1-N53Ocw9hZvds76TmcHoVmwLFpvo=
+  _: 'https://npme.walmart.com/doctrine/-/doctrine-1.5.0.tgz'
+  dependencies:
+   esutils: ^2.0.2
+   isarray: ^1.0.0
+domain-browser:
+ _latest: 4.22.0
+ _:
+  ^1.2.0: 1.2.0
+ 1.2.0:
+  $: sha512-jnjyiM6eRyZl2H+W8Q/zLMA481hzi0eszAaBUzIVnmYVDBbnLxVNnfu1HgEBvCbL+71FrxMl3E6lpKH7Ge3OXA==
+  _: 'https://npme.walmart.com/domain-browser/-/domain-browser-1.2.0.tgz'
+dot-prop:
+ _latest: 6.0.1
+ _:
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha1-G3CK8JSknJoOfbyteQq6U52sEXc=
+  _: 'https://npme.walmart.com/dot-prop/-/dot-prop-3.0.0.tgz'
+  dependencies:
+   is-obj: ^1.0.0
+dotgitignore:
+ _latest: 2.1.0
+ _:
+  ^1.0.3: 1.0.3
+ 1.0.3:
+  $: sha512-eu5XjSstm0WXQsARgo6kPjkINYZlOUW+z/KtAAIBjHa5mUpMPrxJytbPIndWz6GubBuuuH5ljtVcXKnVnH5q8w==
+  _: 'https://npme.walmart.com/dotgitignore/-/dotgitignore-1.0.3.tgz'
+  dependencies:
+   find-up: ^2.1.0
+   minimatch: ^3.0.4
+duplexify:
+ _latest: 4.1.2
+ _:
+  '^3.4.2,^3.5.3': 3.5.4
+ 3.5.4:
+  $: sha512-JzYSLYMhoVVBe8+mbHQ4KgpvHpm0DZpJuL8PY93Vyv1fW7jYJ90LoXa1di/CVbJM+TgMs91rbDapE/RNIfnJsA==
+  _: 'https://npme.walmart.com/duplexify/-/duplexify-3.5.4.tgz'
+  dependencies:
+   end-of-stream: ^1.0.0
+   inherits: ^2.0.1
+   readable-stream: ^2.0.0
+   stream-shift: ^1.0.0
+ecc-jsbn:
+ _latest: 0.2.0
+ _:
+  ~0.1.1: 0.1.2
+ 0.1.2:
+  $: sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=
+  _: 'https://npme.walmart.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz'
+  dependencies:
+   jsbn: ~0.1.0
+   safer-buffer: ^2.1.0
+encoding:
+ _latest: 0.1.13
+ _:
+  ^0.1.11: 0.1.12
+ 0.1.12:
+  $: sha1-U4tm8+5izRq1HsMjgp0flIDHS+s=
+  _: 'https://npme.walmart.com/encoding/-/encoding-0.1.12.tgz'
+  dependencies:
+   iconv-lite: ~0.4.13
+end-of-stream:
+ _latest: 1.4.4
+ _:
+  '^1.0.0,^1.1.0': 1.4.1
+ 1.4.1:
+  $: sha512-1MkrZNvWTKCaigbn+W15elq2BB/L22nqrSY5DKlo3X6+vclJm8Bb5djXJBmEX6fS3+zCh/F4VBK5Z2KxJt4s2Q==
+  _: 'https://npme.walmart.com/end-of-stream/-/end-of-stream-1.4.1.tgz'
+  dependencies:
+   once: ^1.4.0
+error-ex:
+ _latest: 1.3.2
+ _:
+  '^1.2.0,^1.3.1': 1.3.1
+ 1.3.1:
+  $: sha1-+FWobOYa3E6GIcPNoh56dhLDqNw=
+  _: 'https://npme.walmart.com/error-ex/-/error-ex-1.3.1.tgz'
+  dependencies:
+   is-arrayish: ^0.2.1
+es-abstract:
+ _latest: 1.18.5
+ _:
+  ^1.7.0: 1.11.0
+ 1.11.0:
+  $: sha512-ZnQrE/lXTTQ39ulXZ+J1DTFazV9qBy61x2bY071B+qGco8Z8q1QddsLdt/EF8Ai9hcWH72dWS0kFqXLxOxqslA==
+  _: 'https://npme.walmart.com/es-abstract/-/es-abstract-1.11.0.tgz'
+  dependencies:
+   es-to-primitive: ^1.1.1
+   function-bind: ^1.1.1
+   has: ^1.0.1
+   is-callable: ^1.1.3
+   is-regex: ^1.0.4
+es-to-primitive:
+ _latest: 1.2.1
+ _:
+  ^1.1.1: 1.1.1
+ 1.1.1:
+  $: sha1-RTVSSKiJeQNLZ5Lhm7gfK3l13Q0=
+  _: 'https://npme.walmart.com/es-to-primitive/-/es-to-primitive-1.1.1.tgz'
+  dependencies:
+   is-callable: ^1.1.1
+   is-date-object: ^1.0.1
+   is-symbol: ^1.0.1
+escape-string-regexp:
+ _latest: 5.0.0
+ _:
+  '^1.0.2,^1.0.3,^1.0.5': 1.0.5
+ 1.0.5:
+  $: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
+  _: 'https://npme.walmart.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz'
+eslint:
+ _latest: 7.32.0
+ _:
+  ~4.18.0: 4.18.2
+ 4.18.2:
+  $: sha512-qy4i3wODqKMYfz9LUI8N2qYDkHkoieTbiHpMrYUI/WbjhXJQr7lI4VngixTgaG+yHX+NBCv7nW4hA0ShbvaNKw==
+  _: 'https://npme.walmart.com/eslint/-/eslint-4.18.2.tgz'
+  dependencies:
+   ajv: ^5.3.0
+   babel-code-frame: ^6.22.0
+   chalk: ^2.1.0
+   concat-stream: ^1.6.0
+   cross-spawn: ^5.1.0
+   debug: ^3.1.0
+   doctrine: ^2.1.0
+   eslint-scope: ^3.7.1
+   eslint-visitor-keys: ^1.0.0
+   espree: ^3.5.2
+   esquery: ^1.0.0
+   esutils: ^2.0.2
+   file-entry-cache: ^2.0.0
+   functional-red-black-tree: ^1.0.1
+   glob: ^7.1.2
+   globals: ^11.0.1
+   ignore: ^3.3.3
+   imurmurhash: ^0.1.4
+   inquirer: ^3.0.6
+   is-resolvable: ^1.0.0
+   js-yaml: ^3.9.1
+   json-stable-stringify-without-jsonify: ^1.0.1
+   levn: ^0.3.0
+   lodash: ^4.17.4
+   minimatch: ^3.0.2
+   mkdirp: ^0.5.1
+   natural-compare: ^1.4.0
+   optionator: ^0.8.2
+   path-is-inside: ^1.0.2
+   pluralize: ^7.0.0
+   progress: ^2.0.0
+   require-uncached: ^1.0.3
+   semver: ^5.3.0
+   strip-ansi: ^4.0.0
+   strip-json-comments: ~2.0.1
+   table: 4.0.2
+   text-table: ~0.2.0
+eslint-config-standard:
+ _latest: 16.0.3
+ _:
+  11.0.0: 11.0.0
+ 11.0.0:
+  $: sha512-oDdENzpViEe5fwuRCWla7AXQd++/oyIp8zP+iP9jiUPG6NBj3SHgdgtl/kTn00AjeN+1HNvavTKmYbMo+xMOlw==
+  _: 'https://npme.walmart.com/eslint-config-standard/-/eslint-config-standard-11.0.0.tgz'
+  peerDependencies:
+   eslint: '>=4.18.0'
+   eslint-plugin-import: '>=2.8.0'
+   eslint-plugin-node: '>=5.2.1'
+   eslint-plugin-promise: '>=3.6.0'
+   eslint-plugin-standard: '>=3.0.1'
+eslint-config-standard-jsx:
+ _latest: 10.0.0
+ _:
+  5.0.0: 5.0.0
+ 5.0.0:
+  $: sha512-rLToPAEqLMPBfWnYTu6xRhm2OWziS2n40QFqJ8jAM8NSVzeVKTa3nclhsU4DpPJQRY60F34Oo1wi/71PN/eITg==
+  _: 'https://npme.walmart.com/eslint-config-standard-jsx/-/eslint-config-standard-jsx-5.0.0.tgz'
+  peerDependencies:
+   eslint: '>=4.18.0'
+   eslint-plugin-react: '>=7.6.1'
+eslint-import-resolver-node:
+ _latest: 0.3.5
+ _:
+  ^0.3.1: 0.3.2
+ 0.3.2:
+  $: sha512-sfmTqJfPSizWu4aymbPr4Iidp5yKm8yDkHp+Ir3YiTHiiDfxh69mOUsmiqW6RZ9zRXFaF64GtYmN7e+8GHBv6Q==
+  _: 'https://npme.walmart.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.2.tgz'
+  dependencies:
+   debug: ^2.6.9
+   resolve: ^1.5.0
+eslint-module-utils:
+ _latest: 2.6.2
+ _:
+  ^2.1.1: 2.2.0
+ 2.2.0:
+  $: sha1-snA2LNiLGkitMIl2zn+lTphBF0Y=
+  _: 'https://npme.walmart.com/eslint-module-utils/-/eslint-module-utils-2.2.0.tgz'
+  dependencies:
+   debug: ^2.6.8
+   pkg-dir: ^1.0.0
+eslint-plugin-import:
+ _latest: 2.24.0
+ _:
+  ~2.9.0: 2.9.0
+ 2.9.0:
+  $: sha1-JgAu+/ylmJtyiKwEdQi9JPIXsWk=
+  _: 'https://npme.walmart.com/eslint-plugin-import/-/eslint-plugin-import-2.9.0.tgz'
+  dependencies:
+   builtin-modules: ^1.1.1
+   contains-path: ^0.1.0
+   debug: ^2.6.8
+   doctrine: 1.5.0
+   eslint-import-resolver-node: ^0.3.1
+   eslint-module-utils: ^2.1.1
+   has: ^1.0.1
+   lodash: ^4.17.4
+   minimatch: ^3.0.3
+   read-pkg-up: ^2.0.0
+  peerDependencies:
+   eslint: '2.x - 4.x'
+eslint-plugin-node:
+ _latest: 11.1.0
+ _:
+  ~6.0.0: 6.0.1
+ 6.0.1:
+  $: sha512-Q/Cc2sW1OAISDS+Ji6lZS2KV4b7ueA/WydVWd1BECTQwVvfQy5JAi3glhINoKzoMnfnuRgNP+ZWKrGAbp3QDxw==
+  _: 'https://npme.walmart.com/eslint-plugin-node/-/eslint-plugin-node-6.0.1.tgz'
+  dependencies:
+   ignore: ^3.3.6
+   minimatch: ^3.0.4
+   resolve: ^1.3.3
+   semver: ^5.4.1
+  peerDependencies:
+   eslint: '>=3.1.0'
+eslint-plugin-promise:
+ _latest: 5.1.0
+ _:
+  ~3.7.0: 3.7.0
+ 3.7.0:
+  $: sha512-2WO+ZFh7vxUKRfR0cOIMrWgYKdR6S1AlOezw6pC52B6oYpd5WFghN+QHxvrRdZMtbo8h3dfUZ2o1rWb0UPbKtg==
+  _: 'https://npme.walmart.com/eslint-plugin-promise/-/eslint-plugin-promise-3.7.0.tgz'
+eslint-plugin-react:
+ _latest: 7.24.0
+ _:
+  ~7.7.0: 7.7.0
+ 7.7.0:
+  $: sha512-KC7Snr4YsWZD5flu6A5c0AcIZidzW3Exbqp7OT67OaD2AppJtlBr/GuPrW/vaQM/yfZotEvKAdrxrO+v8vwYJA==
+  _: 'https://npme.walmart.com/eslint-plugin-react/-/eslint-plugin-react-7.7.0.tgz'
+  dependencies:
+   doctrine: ^2.0.2
+   has: ^1.0.1
+   jsx-ast-utils: ^2.0.1
+   prop-types: ^15.6.0
+  peerDependencies:
+   eslint: '^3.0.0 || ^4.0.0'
+eslint-plugin-standard:
+ _latest: 5.0.0
+ _:
+  ~3.0.1: 3.0.1
+ 3.0.1:
+  $: sha1-NNDJFbRe3G8BA5PH7vOCOwhWXPI=
+  _: 'https://npme.walmart.com/eslint-plugin-standard/-/eslint-plugin-standard-3.0.1.tgz'
+  peerDependencies:
+   eslint: '>=3.19.0'
+eslint-scope:
+ _latest: 6.0.0
+ _:
+  ^3.7.1: 3.7.1
+ 3.7.1:
+  $: sha1-PWPD7f2gLgbgGkUq2IyqzHzctug=
+  _: 'https://npme.walmart.com/eslint-scope/-/eslint-scope-3.7.1.tgz'
+  dependencies:
+   esrecurse: ^4.1.0
+   estraverse: ^4.1.1
+eslint-visitor-keys:
+ _latest: 3.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
+  _: 'https://npme.walmart.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz'
+espree:
+ _latest: 8.0.0
+ _:
+  ^3.5.2: 3.5.4
+ 3.5.4:
+  $: sha512-yAcIQxtmMiB/jL32dzEp2enBeidsB7xWPLNiw3IIkpVds1P+h7qF9YwJq1yUNzp2OKXgAprs4F61ih66UsoD1A==
+  _: 'https://npme.walmart.com/espree/-/espree-3.5.4.tgz'
+  dependencies:
+   acorn: ^5.5.0
+   acorn-jsx: ^3.0.0
+esprima:
+ _latest: 4.0.1
+ _:
+  ^4.0.0: 4.0.0
+ 4.0.0:
+  $: sha512-oftTcaMu/EGrEIu904mWteKIv8vMuOgGYo7EhVJJN00R/EED9DCua/xxHRdYnKtcECzVg7xOWhflvJMnqcFZjw==
+  _: 'https://npme.walmart.com/esprima/-/esprima-4.0.0.tgz'
+esquery:
+ _latest: 1.4.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha512-SmiyZ5zIWH9VM+SRUReLS5Q8a7GxtRdxEBVZpm98rJM7Sb+A9DVCndXfkeFUd3byderg+EbDkfnevfCwynWaNA==
+  _: 'https://npme.walmart.com/esquery/-/esquery-1.0.1.tgz'
+  dependencies:
+   estraverse: ^4.0.0
+esrecurse:
+ _latest: 4.3.0
+ _:
+  ^4.1.0: 4.2.1
+ 4.2.1:
+  $: sha512-64RBB++fIOAXPw3P9cy89qfMlvZEXZkqqJkjqqXIvzP5ezRZjW+lPWjw35UX/3EhUPFYbg5ER4JYgDw4007/DQ==
+  _: 'https://npme.walmart.com/esrecurse/-/esrecurse-4.2.1.tgz'
+  dependencies:
+   estraverse: ^4.1.0
+estraverse:
+ _latest: 5.2.0
+ _:
+  '^4.0.0,^4.1.0,^4.1.1': 4.2.0
+ 4.2.0:
+  $: sha1-De4/7TH81GlhjOc0IJn8GvoL2xM=
+  _: 'https://npme.walmart.com/estraverse/-/estraverse-4.2.0.tgz'
+esutils:
+ _latest: 2.0.3
+ _:
+  ^2.0.2: 2.0.2
+ 2.0.2:
+  $: sha1-Cr9PHKpbyx96nYrMbepPqqBLrJs=
+  _: 'https://npme.walmart.com/esutils/-/esutils-2.0.2.tgz'
+events-to-array:
+ _latest: 1.1.2
+ _:
+  ^1.0.1: 1.1.2
+ 1.1.2:
+  $: sha1-LUH1Y+H+QA7Uli/hpNXGp1Od9/Y=
+  _: 'https://npme.walmart.com/events-to-array/-/events-to-array-1.1.2.tgz'
+execa:
+ _latest: 5.1.1
+ _:
+  ^0.7.0: 0.7.0
+ 0.7.0:
+  $: sha1-lEvs00zEHuMqY6n68nrVpl/Fl3c=
+  _: 'https://npme.walmart.com/execa/-/execa-0.7.0.tgz'
+  dependencies:
+   cross-spawn: ^5.0.1
+   get-stream: ^3.0.0
+   is-stream: ^1.1.0
+   npm-run-path: ^2.0.0
+   p-finally: ^1.0.0
+   signal-exit: ^3.0.0
+   strip-eof: ^1.0.0
+extend:
+ _latest: 3.0.2
+ _:
+  ~3.0.2: 3.0.2
+ 3.0.2:
+  $: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==
+  _: 'https://npme.walmart.com/extend/-/extend-3.0.2.tgz'
+external-editor:
+ _latest: 3.1.0
+ _:
+  ^2.0.4: 2.2.0
+ 2.2.0:
+  $: sha512-bSn6gvGxKt+b7+6TKEv1ZycHleA7aHhRHyAqJyp5pbUFuYYNIzpZnQDk7AsYckyWdEnTeAnay0aCy2aV6iTk9A==
+  _: 'https://npme.walmart.com/external-editor/-/external-editor-2.2.0.tgz'
+  dependencies:
+   chardet: ^0.4.0
+   iconv-lite: ^0.4.17
+   tmp: ^0.0.33
+extsprintf:
+ _latest: 1.4.0
+ _:
+  '1.3.0,^1.2.0': 1.3.0
+ 1.3.0:
+  $: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
+  _: 'https://npme.walmart.com/extsprintf/-/extsprintf-1.3.0.tgz'
+fast-deep-equal:
+ _latest: 3.1.3
+ _:
+  ^1.0.0: 1.1.0
+  ^3.1.1: 3.1.3
+ 3.1.3:
+  $: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
+  _: 'https://npme.walmart.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz'
+ 1.1.0:
+  $: sha1-wFNHeBfIa1HaqFPIHgWbcz0CNhQ=
+  _: 'https://npme.walmart.com/fast-deep-equal/-/fast-deep-equal-1.1.0.tgz'
+fast-json-stable-stringify:
+ _latest: 2.1.0
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
+  _: 'https://npme.walmart.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz'
+fast-levenshtein:
+ _latest: 3.0.0
+ _:
+  ~2.0.4: 2.0.6
+ 2.0.6:
+  $: sha1-PYpcZog6FqMMqGQ+hR8Zuqd5eRc=
+  _: 'https://npme.walmart.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz'
+fbjs:
+ _latest: 3.0.0
+ _:
+  ^0.8.16: 0.8.16
+ 0.8.16:
+  $: sha1-XmdDL1UNxBtXK/VYR7ispk5TN9s=
+  _: 'https://npme.walmart.com/fbjs/-/fbjs-0.8.16.tgz'
+  dependencies:
+   core-js: ^1.0.0
+   isomorphic-fetch: ^2.1.1
+   loose-envify: ^1.0.0
+   object-assign: ^4.1.0
+   promise: ^7.1.1
+   setimmediate: ^1.0.5
+   ua-parser-js: ^0.7.9
+figgy-pudding:
+ _latest: 3.5.2
+ _:
+  ^3.5.1: 3.5.1
+ 3.5.1:
+  top: 1
+  $: sha512-vNKxJHTEKNThjfrdJwHc7brvM6eVevuO5nTj6ez8ZQ1qbXTvGthucRF7S4vf2cr71QVnT70V34v0S1DyQsti0w==
+  _: 'https://npme.walmart.com/figgy-pudding/-/figgy-pudding-3.5.1.tgz'
+figures:
+ _latest: 4.0.0
+ _:
+  ^1.5.0: 1.7.0
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-OrGi0qYsi/tDGgyUy3l6L84nyWI=
+  _: 'https://npme.walmart.com/figures/-/figures-2.0.0.tgz'
+  dependencies:
+   escape-string-regexp: ^1.0.5
+ 1.7.0:
+  $: sha1-y+Hjr/zxzUS4DK3+0o3Hk6lwHS4=
+  _: 'https://npme.walmart.com/figures/-/figures-1.7.0.tgz'
+  dependencies:
+   escape-string-regexp: ^1.0.5
+   object-assign: ^4.1.0
+file-entry-cache:
+ _latest: 6.0.1
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-w5KZDD5oR4PYOLjISkXYoEhFg2E=
+  _: 'https://npme.walmart.com/file-entry-cache/-/file-entry-cache-2.0.0.tgz'
+  dependencies:
+   flat-cache: ^1.2.1
+   object-assign: ^4.0.1
+find-root:
+ _latest: 1.1.0
+ _:
+  ^1.0.0: 1.1.0
+ 1.1.0:
+  $: sha512-NKfW6bec6GfKc0SGx1e07QZY9PE99u0Bft/0rzSD5k3sO/vwkVUpDUKVm5Gpp5Ue3YfShPFTX2070tDs5kB9Ng==
+  _: 'https://npme.walmart.com/find-root/-/find-root-1.1.0.tgz'
+find-up:
+ _latest: 5.0.0
+ _:
+  ^1.0.0: 1.1.2
+  '^2.0.0,^2.1.0': 2.1.0
+ 2.1.0:
+  $: sha1-RdG35QbHF93UgndaK3eSCjwMV6c=
+  _: 'https://npme.walmart.com/find-up/-/find-up-2.1.0.tgz'
+  dependencies:
+   locate-path: ^2.0.0
+ 1.1.2:
+  $: sha1-ay6YIrGizgpgq2TWEOzK1TyyTQ8=
+  _: 'https://npme.walmart.com/find-up/-/find-up-1.1.2.tgz'
+  dependencies:
+   path-exists: ^2.0.0
+   pinkie-promise: ^2.0.0
+flat-cache:
+ _latest: 3.0.4
+ _:
+  ^1.2.1: 1.3.0
+ 1.3.0:
+  $: sha1-0wMLMrOBVPTjt+nHCfSQ9++XxIE=
+  _: 'https://npme.walmart.com/flat-cache/-/flat-cache-1.3.0.tgz'
+  dependencies:
+   circular-json: ^0.3.1
+   del: ^2.0.2
+   graceful-fs: ^4.1.2
+   write: ^0.2.1
+flush-write-stream:
+ _latest: 2.0.0
+ _:
+  ^1.0.0: 1.0.3
+ 1.0.3:
+  $: sha512-calZMC10u0FMUqoiunI2AiGIIUtUIvifNwkHhNupZH4cbNnW1Itkoh/Nf5HFYmDrwWPjrUxpkZT0KhuCq0jmGw==
+  _: 'https://npme.walmart.com/flush-write-stream/-/flush-write-stream-1.0.3.tgz'
+  dependencies:
+   inherits: ^2.0.1
+   readable-stream: ^2.0.4
+foreach:
+ _latest: 2.0.5
+ _:
+  ^2.0.5: 2.0.5
+ 2.0.5:
+  $: sha1-C+4AUBiusmDQo6865ljdATbsG5k=
+  _: 'https://npme.walmart.com/foreach/-/foreach-2.0.5.tgz'
+foreground-child:
+ _latest: 2.0.0
+ _:
+  ^1.3.3: 1.5.6
+ 1.5.6:
+  $: sha1-T9ca0t/elnibmApcCilZN8svXOk=
+  _: 'https://npme.walmart.com/foreground-child/-/foreground-child-1.5.6.tgz'
+  dependencies:
+   cross-spawn: ^4
+   signal-exit: ^3.0.0
+forever-agent:
+ _latest: 0.6.1
+ _:
+  ~0.6.1: 0.6.1
+ 0.6.1:
+  $: sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
+  _: 'https://npme.walmart.com/forever-agent/-/forever-agent-0.6.1.tgz'
+form-data:
+ _latest: 4.0.0
+ _:
+  ~2.3.2: 2.3.3
+ 2.3.3:
+  $: sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==
+  _: 'https://npme.walmart.com/form-data/-/form-data-2.3.3.tgz'
+  dependencies:
+   asynckit: ^0.4.0
+   combined-stream: ^1.0.6
+   mime-types: ^2.1.12
+from2:
+ _latest: 2.3.0
+ _:
+  ^2.1.0: 2.3.0
+ 2.3.0:
+  $: sha1-i/tVAr3kpNNs/e6gB/zKIdfjgq8=
+  _: 'https://npme.walmart.com/from2/-/from2-2.3.0.tgz'
+  dependencies:
+   inherits: ^2.0.1
+   readable-stream: ^2.0.0
+fs-access:
+ _latest: 2.0.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha1-1qh/JiJxzv6+wwxVNAf7mV2od3o=
+  _: 'https://npme.walmart.com/fs-access/-/fs-access-1.0.1.tgz'
+  dependencies:
+   null-check: ^1.0.0
+fs-exists-cached:
+ _latest: 1.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-zyVVTKBQ3EmuZla0HeQiWJidy84=
+  _: 'https://npme.walmart.com/fs-exists-cached/-/fs-exists-cached-1.0.0.tgz'
+fs-write-stream-atomic:
+ _latest: 1.0.10
+ _:
+  ^1.0.8: 1.0.10
+ 1.0.10:
+  $: sha1-tH31NJPvkR33VzHnCp3tAYnbQMk=
+  _: 'https://npme.walmart.com/fs-write-stream-atomic/-/fs-write-stream-atomic-1.0.10.tgz'
+  dependencies:
+   graceful-fs: ^4.1.2
+   iferr: ^0.1.5
+   imurmurhash: ^0.1.4
+   readable-stream: '1 || 2'
+fs.realpath:
+ _latest: 1.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+  _: 'https://npme.walmart.com/fs.realpath/-/fs.realpath-1.0.0.tgz'
+function-bind:
+ _latest: 1.1.1
+ _:
+  '^1.0.2,^1.1.1': 1.1.1
+ 1.1.1:
+  $: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
+  _: 'https://npme.walmart.com/function-bind/-/function-bind-1.1.1.tgz'
+function-loop:
+ _latest: 2.0.1
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-gHa7MF6OajzO7ikgdl8zDRkPNAw=
+  _: 'https://npme.walmart.com/function-loop/-/function-loop-1.0.1.tgz'
+functional-red-black-tree:
+ _latest: 1.0.1
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
+  _: 'https://npme.walmart.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz'
+get-caller-file:
+ _latest: 2.0.5
+ _:
+  ^1.0.1: 1.0.2
+ 1.0.2:
+  $: sha1-9wLmMSfn4jHBYKgMFVSstw1QR+U=
+  _: 'https://npme.walmart.com/get-caller-file/-/get-caller-file-1.0.2.tgz'
+get-pkg-repo:
+ _latest: 4.1.2
+ _:
+  ^1.0.0: 1.4.0
+ 1.4.0:
+  $: sha1-xztInAbYDMVTbCyFP54FIyBWly0=
+  _: 'https://npme.walmart.com/get-pkg-repo/-/get-pkg-repo-1.4.0.tgz'
+  dependencies:
+   parse-github-repo-url: ^1.3.0
+   hosted-git-info: ^2.1.4
+   meow: ^3.3.0
+   normalize-package-data: ^2.3.0
+   through2: ^2.0.0
+get-stdin:
+ _latest: 9.0.0
+ _:
+  ^4.0.1: 4.0.1
+  ^6.0.0: 6.0.0
+ 6.0.0:
+  $: sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
+  _: 'https://npme.walmart.com/get-stdin/-/get-stdin-6.0.0.tgz'
+ 4.0.1:
+  $: sha1-uWjGsKBDhDJJAui/Gl3zJXmkUP4=
+  _: 'https://npme.walmart.com/get-stdin/-/get-stdin-4.0.1.tgz'
+get-stream:
+ _latest: 6.0.1
+ _:
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ=
+  _: 'https://npme.walmart.com/get-stream/-/get-stream-3.0.0.tgz'
+getpass:
+ _latest: 0.1.7
+ _:
+  ^0.1.1: 0.1.7
+ 0.1.7:
+  $: sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
+  _: 'https://npme.walmart.com/getpass/-/getpass-0.1.7.tgz'
+  dependencies:
+   assert-plus: ^1.0.0
+git-raw-commits:
+ _latest: 2.0.10
+ _:
+  '^1.3.0,^1.3.6': 1.3.6
+ 1.3.6:
+  $: sha512-svsK26tQ8vEKnMshTDatSIQSMDdz8CxIIqKsvPqbtV23Etmw6VNaFAitu8zwZ0VrOne7FztwPyRLxK7/DIUTQg==
+  _: 'https://npme.walmart.com/git-raw-commits/-/git-raw-commits-1.3.6.tgz'
+  dependencies:
+   dargs: ^4.0.1
+   lodash.template: ^4.0.2
+   meow: ^4.0.0
+   split2: ^2.0.0
+   through2: ^2.0.0
+git-remote-origin-url:
+ _latest: 3.1.0
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-UoJlna4hBxRaERJhEq0yFuxfpl8=
+  _: 'https://npme.walmart.com/git-remote-origin-url/-/git-remote-origin-url-2.0.0.tgz'
+  dependencies:
+   gitconfiglocal: ^1.0.0
+   pify: ^2.3.0
+git-semver-tags:
+ _latest: 4.1.1
+ _:
+  '^1.3.0,^1.3.6': 1.3.6
+ 1.3.6:
+  $: sha512-2jHlJnln4D/ECk9FxGEBh3k44wgYdWjWDtMmJPaecjoRmxKo3Y1Lh8GMYuOPu04CHw86NTAODchYjC5pnpMQig==
+  _: 'https://npme.walmart.com/git-semver-tags/-/git-semver-tags-1.3.6.tgz'
+  dependencies:
+   meow: ^4.0.0
+   semver: ^5.5.0
+gitconfiglocal:
+ _latest: 2.1.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-QdBF84UaXqiPA/JMocYXgRRGS5s=
+  _: 'https://npme.walmart.com/gitconfiglocal/-/gitconfiglocal-1.0.0.tgz'
+  dependencies:
+   ini: ^1.3.2
+glob:
+ _latest: 7.1.7
+ _:
+  '^7.0.3,^7.0.5,^7.1.2,^7.1.3': 7.1.3
+ 7.1.3:
+  top: 1
+  $: sha512-vcfuiIxogLV4DlGBHIUOwI0IbrJ8HWPc4MU7HzviGeNho/UJDfi6B5p3sHeWIQ0KGIU0Jpxi5ZHxemQfLkkAwQ==
+  _: 'https://npme.walmart.com/glob/-/glob-7.1.3.tgz'
+  dependencies:
+   fs.realpath: ^1.0.0
+   inflight: ^1.0.4
+   inherits: '2'
+   minimatch: ^3.0.4
+   once: ^1.3.0
+   path-is-absolute: ^1.0.0
+globals:
+ _latest: 13.10.0
+ _:
+  ^11.0.1: 11.4.0
+ 11.4.0:
+  $: sha512-Dyzmifil8n/TmSqYDEXbm+C8yitzJQqQIlJQLNRMwa+BOUJpRC19pyVeN12JAjt61xonvXjtff+hJruTRXn5HA==
+  _: 'https://npme.walmart.com/globals/-/globals-11.4.0.tgz'
+globby:
+ _latest: 12.0.0
+ _:
+  ^5.0.0: 5.0.0
+ 5.0.0:
+  $: sha1-69hGZ8oNuzMLmbz8aOrCvFQ3Dg0=
+  _: 'https://npme.walmart.com/globby/-/globby-5.0.0.tgz'
+  dependencies:
+   array-union: ^1.0.1
+   arrify: ^1.0.0
+   glob: ^7.0.3
+   object-assign: ^4.0.1
+   pify: ^2.0.0
+   pinkie-promise: ^2.0.0
+graceful-fs:
+ _latest: 4.2.8
+ _:
+  '^4.1.11,^4.1.15,^4.1.2': 4.1.15
+ 4.1.15:
+  top: 1
+  $: sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
+  _: 'https://npme.walmart.com/graceful-fs/-/graceful-fs-4.1.15.tgz'
+growl:
+ _latest: 1.10.5
+ _:
+  '~> 1.10.0': 1.10.5
+ 1.10.5:
+  $: sha512-qBr4OuELkhPenW6goKVXiv47US3clb3/IbuWF9KNKEijAy9oeHxU9IgzjvJhHkUzhaj7rOUD7+YGWqUjLp5oSA==
+  _: 'https://npme.walmart.com/growl/-/growl-1.10.5.tgz'
+handlebars:
+ _latest: 4.7.7
+ _:
+  ^4.0.2: 4.0.11
+ 4.0.11:
+  $: sha1-Ywo13+ApS8KB7a5v/F0yn8eYLcw=
+  _: 'https://npme.walmart.com/handlebars/-/handlebars-4.0.11.tgz'
+  dependencies:
+   async: ^1.4.0
+   optimist: ^0.6.1
+   source-map: ^0.4.4
+  optionalDependencies:
+   uglify-js: ^2.6
+har-schema:
+ _latest: 2.0.0
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI=
+  _: 'https://npme.walmart.com/har-schema/-/har-schema-2.0.0.tgz'
+har-validator:
+ _latest: 5.1.5
+ _:
+  ~5.1.0: 5.1.3
+ 5.1.3:
+  $: sha512-sNvOCzEQNr/qrvJgc3UG/kD4QtlHycrzwS+6mfTrrSq97BvaYcPZZI1ZSqGSPR73Cxn4LKTD4PttRwfU7jWq5g==
+  _: 'https://npme.walmart.com/har-validator/-/har-validator-5.1.3.tgz'
+  dependencies:
+   ajv: ^6.5.5
+   har-schema: ^2.0.0
+  deprecated: 'this library is no longer supported'
+has:
+ _latest: 1.0.3
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-hGFzP1OLCDfJNh45qauelwTcLyg=
+  _: 'https://npme.walmart.com/has/-/has-1.0.1.tgz'
+  dependencies:
+   function-bind: ^1.0.2
+has-ansi:
+ _latest: 5.0.0
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=
+  _: 'https://npme.walmart.com/has-ansi/-/has-ansi-2.0.0.tgz'
+  dependencies:
+   ansi-regex: ^2.0.0
+has-flag:
+ _latest: 5.0.1
+ _:
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha1-tdRU3CGZriJWmfNGfloH87lVuv0=
+  _: 'https://npme.walmart.com/has-flag/-/has-flag-3.0.0.tgz'
+hosted-git-info:
+ _latest: 4.0.2
+ _:
+  '^2.1.4,^2.2.0': 2.4.2
+ 2.4.2:
+  $: sha1-AHa59GonBQbduq6lZJaJdGBhKmc=
+  _: 'https://npme.walmart.com/hosted-git-info/-/hosted-git-info-2.4.2.tgz'
+http-signature:
+ _latest: 1.3.5
+ _:
+  ~1.2.0: 1.2.0
+ 1.2.0:
+  $: sha1-muzZJRFHcvPZW2WmCruPfBj7rOE=
+  _: 'https://npme.walmart.com/http-signature/-/http-signature-1.2.0.tgz'
+  dependencies:
+   assert-plus: ^1.0.0
+   jsprim: ^1.2.2
+   sshpk: ^1.7.0
+iconv-lite:
+ _latest: 0.6.3
+ _:
+  '^0.4.17,~0.4.13': 0.4.21
+ 0.4.21:
+  $: sha512-En5V9za5mBt2oUA03WGD3TwDv0MKAruqsuxstbMUZaj9W9k/m1CV/9py3l0L5kw9Bln8fdHQmzHSYtvpvTLpKw==
+  _: 'https://npme.walmart.com/iconv-lite/-/iconv-lite-0.4.21.tgz'
+  dependencies:
+   safer-buffer: ^2.1.0
+iferr:
+ _latest: 1.0.2
+ _:
+  ^0.1.5: 0.1.5
+ 0.1.5:
+  $: sha1-xg7taebY/bazEEofy8ocGS3FtQE=
+  _: 'https://npme.walmart.com/iferr/-/iferr-0.1.5.tgz'
+ignore:
+ _latest: 5.1.8
+ _:
+  '^3.0.9,^3.3.3,^3.3.6': 3.3.7
+ 3.3.7:
+  $: sha512-YGG3ejvBNHRqu0559EOxxNFihD0AjpvHlC/pdGKd3X3ofe+CoJkYazwNJYTNebqpPKN+VVQbh4ZFn1DivMNuHA==
+  _: 'https://npme.walmart.com/ignore/-/ignore-3.3.7.tgz'
+imurmurhash:
+ _latest: 0.1.4
+ _:
+  ^0.1.4: 0.1.4
+ 0.1.4:
+  $: sha1-khi5srkoojixPcT7a21XbyMUU+o=
+  _: 'https://npme.walmart.com/imurmurhash/-/imurmurhash-0.1.4.tgz'
+indent-string:
+ _latest: 5.0.0
+ _:
+  ^2.1.0: 2.1.0
+  ^3.0.0: 3.2.0
+ 3.2.0:
+  $: sha1-Sl/W0nzDMvN+VBmlBNu4NxBckok=
+  _: 'https://npme.walmart.com/indent-string/-/indent-string-3.2.0.tgz'
+ 2.1.0:
+  $: sha1-ji1INIdCEhtKghi3oTfppSBJ3IA=
+  _: 'https://npme.walmart.com/indent-string/-/indent-string-2.1.0.tgz'
+  dependencies:
+   repeating: ^2.0.0
+inflight:
+ _latest: 1.0.6
+ _:
+  ^1.0.4: 1.0.6
+ 1.0.6:
+  $: sha1-Sb1jMdfQLQwJvJEKEHW6gWW1bfk=
+  _: 'https://npme.walmart.com/inflight/-/inflight-1.0.6.tgz'
+  dependencies:
+   once: ^1.3.0
+   wrappy: '1'
+inherits:
+ _latest: 2.0.4
+ _:
+  '2,^2.0.1,^2.0.3,~2.0.1': 2.0.3
+ 2.0.3:
+  $: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+  _: 'https://npme.walmart.com/inherits/-/inherits-2.0.3.tgz'
+ini:
+ _latest: 2.0.0
+ _:
+  ^1.3.2: 1.3.5
+ 1.3.5:
+  $: sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  _: 'https://npme.walmart.com/ini/-/ini-1.3.5.tgz'
+  deprecated: 'Please update to ini >=1.3.6 to avoid a prototype pollution issue'
+inquirer:
+ _latest: 8.1.2
+ _:
+  ^3.0.6: 3.3.0
+ 3.3.0:
+  $: sha512-h+xtnyk4EwKvFWHrUYsWErEVR+igKtLdchu+o0Z1RL7VU/jVMFbYir2bp6bAj8efFNxWqHX0dIss6fJQ+/+qeQ==
+  _: 'https://npme.walmart.com/inquirer/-/inquirer-3.3.0.tgz'
+  dependencies:
+   ansi-escapes: ^3.0.0
+   chalk: ^2.0.0
+   cli-cursor: ^2.1.0
+   cli-width: ^2.0.0
+   external-editor: ^2.0.4
+   figures: ^2.0.0
+   lodash: ^4.3.0
+   mute-stream: 0.0.7
+   run-async: ^2.2.0
+   rx-lite: ^4.0.8
+   rx-lite-aggregates: ^4.0.8
+   string-width: ^2.1.0
+   strip-ansi: ^4.0.0
+   through: ^2.3.6
+invert-kv:
+ _latest: 4.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-EEqOSqym09jNFXqO+L+rLXo//bY=
+  _: 'https://npme.walmart.com/invert-kv/-/invert-kv-1.0.0.tgz'
+is-arrayish:
+ _latest: 0.3.2
+ _:
+  ^0.2.1: 0.2.1
+ 0.2.1:
+  $: sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0=
+  _: 'https://npme.walmart.com/is-arrayish/-/is-arrayish-0.2.1.tgz'
+is-buffer:
+ _latest: 2.0.5
+ _:
+  ^1.1.5: 1.1.6
+ 1.1.6:
+  $: sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
+  _: 'https://npme.walmart.com/is-buffer/-/is-buffer-1.1.6.tgz'
+is-builtin-module:
+ _latest: 3.1.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-VAVy0096wxGfj3bDDLwbHgN6/74=
+  _: 'https://npme.walmart.com/is-builtin-module/-/is-builtin-module-1.0.0.tgz'
+  dependencies:
+   builtin-modules: ^1.0.0
+is-callable:
+ _latest: 1.2.4
+ _:
+  '^1.1.1,^1.1.3': 1.1.3
+ 1.1.3:
+  $: sha1-hut1OSgF3cM69xySoO7fdO52BLI=
+  _: 'https://npme.walmart.com/is-callable/-/is-callable-1.1.3.tgz'
+is-date-object:
+ _latest: 1.0.5
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-mqIOtq7rv/d/vTPnTKAbM1gdOhY=
+  _: 'https://npme.walmart.com/is-date-object/-/is-date-object-1.0.1.tgz'
+is-finite:
+ _latest: 2.0.0
+ _:
+  ^1.0.0: 1.0.2
+ 1.0.2:
+  $: sha1-zGZ3aVYCvlUO8R6LSqYwU0K20Ko=
+  _: 'https://npme.walmart.com/is-finite/-/is-finite-1.0.2.tgz'
+  dependencies:
+   number-is-nan: ^1.0.0
+is-fullwidth-code-point:
+ _latest: 4.0.0
+ _:
+  ^1.0.0: 1.0.0
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-o7MKXE8ZkYMWeqq5O+764937ZU8=
+  _: 'https://npme.walmart.com/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz'
+ 1.0.0:
+  $: sha1-754xOG8DGn8NZDr4L95QxFfvAMs=
+  _: 'https://npme.walmart.com/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz'
+  dependencies:
+   number-is-nan: ^1.0.0
+is-obj:
+ _latest: 3.0.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha1-PkcprB9f3gJc19g6iW2rn09n2w8=
+  _: 'https://npme.walmart.com/is-obj/-/is-obj-1.0.1.tgz'
+is-path-cwd:
+ _latest: 2.2.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-0iXsIxMuie3Tj9p2dHLmLmXxEG0=
+  _: 'https://npme.walmart.com/is-path-cwd/-/is-path-cwd-1.0.0.tgz'
+is-path-in-cwd:
+ _latest: 4.0.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha512-FjV1RTW48E7CWM7eE/J2NJvAEEVektecDBVBE5Hh3nM1Jd0kvhHtX68Pr3xsDf857xt3Y4AkwVULK1Vku62aaQ==
+  _: 'https://npme.walmart.com/is-path-in-cwd/-/is-path-in-cwd-1.0.1.tgz'
+  dependencies:
+   is-path-inside: ^1.0.0
+is-path-inside:
+ _latest: 4.0.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha1-jvW33lBDej/cprToZe96pVy0gDY=
+  _: 'https://npme.walmart.com/is-path-inside/-/is-path-inside-1.0.1.tgz'
+  dependencies:
+   path-is-inside: ^1.0.1
+is-plain-obj:
+ _latest: 4.0.0
+ _:
+  ^1.1.0: 1.1.0
+ 1.1.0:
+  $: sha1-caUMhCnfync8kqOQpKA7OfzVHT4=
+  _: 'https://npme.walmart.com/is-plain-obj/-/is-plain-obj-1.1.0.tgz'
+is-promise:
+ _latest: 4.0.0
+ _:
+  ^2.1.0: 2.1.0
+ 2.1.0:
+  $: sha1-eaKp7OfwlugPNtKy87wWwf9L8/o=
+  _: 'https://npme.walmart.com/is-promise/-/is-promise-2.1.0.tgz'
+is-regex:
+ _latest: 1.1.4
+ _:
+  ^1.0.4: 1.0.4
+ 1.0.4:
+  $: sha1-VRdIm1RwkbCTDglWVM7SXul+lJE=
+  _: 'https://npme.walmart.com/is-regex/-/is-regex-1.0.4.tgz'
+  dependencies:
+   has: ^1.0.1
+is-resolvable:
+ _latest: 1.1.0
+ _:
+  ^1.0.0: 1.1.0
+ 1.1.0:
+  $: sha512-qgDYXFSR5WvEfuS5dMj6oTMEbrrSaM0CrFk2Yiq/gXnBvD9pMa2jGXxyhGLfvhZpuMZe18CJpFxAt3CRs42NMg==
+  _: 'https://npme.walmart.com/is-resolvable/-/is-resolvable-1.1.0.tgz'
+is-stream:
+ _latest: 3.0.0
+ _:
+  '^1.0.1,^1.1.0': 1.1.0
+ 1.1.0:
+  $: sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+  _: 'https://npme.walmart.com/is-stream/-/is-stream-1.1.0.tgz'
+is-subset:
+ _latest: 0.1.1
+ _:
+  ^0.1.1: 0.1.1
+ 0.1.1:
+  $: sha1-ilkRfZMt4d4A8kX83TnOQ/HpOaY=
+  _: 'https://npme.walmart.com/is-subset/-/is-subset-0.1.1.tgz'
+is-symbol:
+ _latest: 1.0.4
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-PMWfAAJRlLarLjjbrmaJJWtmBXI=
+  _: 'https://npme.walmart.com/is-symbol/-/is-symbol-1.0.1.tgz'
+is-text-path:
+ _latest: 2.0.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha1-Thqg+1G/vLPpJogAE5cgLBd1tm4=
+  _: 'https://npme.walmart.com/is-text-path/-/is-text-path-1.0.1.tgz'
+  dependencies:
+   text-extensions: ^1.0.0
+is-typedarray:
+ _latest: 1.0.0
+ _:
+  ~1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+  _: 'https://npme.walmart.com/is-typedarray/-/is-typedarray-1.0.0.tgz'
+is-utf8:
+ _latest: 0.2.1
+ _:
+  ^0.2.0: 0.2.1
+ 0.2.1:
+  $: sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=
+  _: 'https://npme.walmart.com/is-utf8/-/is-utf8-0.2.1.tgz'
+is-windows:
+ _latest: 1.0.2
+ _:
+  ^1.0.0: 1.0.2
+ 1.0.2:
+  $: sha512-eXK1UInq2bPmjyX6e3VHIzMLobc4J94i4AWn+Hpq3OU5KkrRC96OAcR3PRJ/pGu6m8TRnBHP9dkXQVsT/COVIA==
+  _: 'https://npme.walmart.com/is-windows/-/is-windows-1.0.2.tgz'
+isarray:
+ _latest: 2.0.5
+ _:
+  '^1.0.0,~1.0.0': 1.0.0
+ 1.0.0:
+  $: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+  _: 'https://npme.walmart.com/isarray/-/isarray-1.0.0.tgz'
+isexe:
+ _latest: 2.0.0
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
+  _: 'https://npme.walmart.com/isexe/-/isexe-2.0.0.tgz'
+isomorphic-fetch:
+ _latest: 3.0.0
+ _:
+  ^2.1.1: 2.2.1
+ 2.2.1:
+  $: sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  _: 'https://npme.walmart.com/isomorphic-fetch/-/isomorphic-fetch-2.2.1.tgz'
+  dependencies:
+   node-fetch: ^1.0.1
+   whatwg-fetch: '>=0.10.0'
+isstream:
+ _latest: 0.1.2
+ _:
+  ~0.1.2: 0.1.2
+ 0.1.2:
+  $: sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
+  _: 'https://npme.walmart.com/isstream/-/isstream-0.1.2.tgz'
+js-tokens:
+ _latest: 7.0.0
+ _:
+  '^3.0.0,^3.0.2': 3.0.2
+ 3.0.2:
+  $: sha1-mGbfOVECEw449/mWvOtlRDIJwls=
+  _: 'https://npme.walmart.com/js-tokens/-/js-tokens-3.0.2.tgz'
+js-yaml:
+ _latest: 4.1.0
+ _:
+  '^3.11.0,^3.12.0,^3.2.7,^3.3.1,^3.9.1': 3.12.0
+ 3.12.0:
+  $: sha512-PIt2cnwmPfL4hKNwqeiuz4bKfnzHTBv6HyVgjahA6mPLwPDzjDWrplJBMjHUFxku/N3FlmrbyPclad+I+4mJ3A==
+  _: 'https://npme.walmart.com/js-yaml/-/js-yaml-3.12.0.tgz'
+  dependencies:
+   argparse: ^1.0.7
+   esprima: ^4.0.0
+jsbn:
+ _latest: 1.1.0
+ _:
+  ~0.1.0: 0.1.1
+ 0.1.1:
+  $: sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
+  _: 'https://npme.walmart.com/jsbn/-/jsbn-0.1.1.tgz'
+json-parse-better-errors:
+ _latest: 1.0.2
+ _:
+  ^1.0.1: 1.0.2
+ 1.0.2:
+  $: sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==
+  _: 'https://npme.walmart.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz'
+json-schema:
+ _latest: 0.3.0
+ _:
+  0.2.3: 0.2.3
+ 0.2.3:
+  $: sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
+  _: 'https://npme.walmart.com/json-schema/-/json-schema-0.2.3.tgz'
+json-schema-traverse:
+ _latest: 1.0.0
+ _:
+  ^0.3.0: 0.3.1
+  ^0.4.1: 0.4.1
+ 0.4.1:
+  $: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==
+  _: 'https://npme.walmart.com/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz'
+ 0.3.1:
+  $: sha1-NJptRMU6Ud6JtAgFxdXlm0F9M0A=
+  _: 'https://npme.walmart.com/json-schema-traverse/-/json-schema-traverse-0.3.1.tgz'
+json-stable-stringify-without-jsonify:
+ _latest: 1.0.1
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-nbe1lJatPzz+8wp1FC0tkwrXJlE=
+  _: 'https://npme.walmart.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz'
+json-stringify-safe:
+ _latest: 5.0.1
+ _:
+  '^5.0.1,~5.0.1': 5.0.1
+ 5.0.1:
+  $: sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
+  _: 'https://npme.walmart.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz'
+jsonparse:
+ _latest: 1.3.1
+ _:
+  ^1.2.0: 1.3.1
+ 1.3.1:
+  $: sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
+  _: 'https://npme.walmart.com/jsonparse/-/jsonparse-1.3.1.tgz'
+jsprim:
+ _latest: 2.0.0
+ _:
+  ^1.2.2: 1.4.1
+ 1.4.1:
+  $: sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
+  _: 'https://npme.walmart.com/jsprim/-/jsprim-1.4.1.tgz'
+  dependencies:
+   assert-plus: 1.0.0
+   extsprintf: 1.3.0
+   json-schema: 0.2.3
+   verror: 1.10.0
+jsx-ast-utils:
+ _latest: 3.2.0
+ _:
+  ^2.0.1: 2.0.1
+ 2.0.1:
+  $: sha1-6AGxs5mF4g//yHtA43SAgOLcrH8=
+  _: 'https://npme.walmart.com/jsx-ast-utils/-/jsx-ast-utils-2.0.1.tgz'
+  dependencies:
+   array-includes: ^3.0.3
+kind-of:
+ _latest: 6.0.3
+ _:
+  ^3.0.2: 3.2.2
+ 3.2.2:
+  $: sha1-MeohpzS6ubuw8yRm2JOupR5KPGQ=
+  _: 'https://npme.walmart.com/kind-of/-/kind-of-3.2.2.tgz'
+  dependencies:
+   is-buffer: ^1.1.5
+lazy-cache:
+ _latest: 2.0.2
+ _:
+  ^1.0.3: 1.0.4
+ 1.0.4:
+  $: sha1-odePw6UEdMuAhF07O24dpJpEbo4=
+  _: 'https://npme.walmart.com/lazy-cache/-/lazy-cache-1.0.4.tgz'
+lcid:
+ _latest: 3.1.1
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-MIrMr6C8SDo4Z7S28rlQYlHRuDU=
+  _: 'https://npme.walmart.com/lcid/-/lcid-1.0.0.tgz'
+  dependencies:
+   invert-kv: ^1.0.0
+lcov-parse:
+ _latest: 1.0.0
+ _:
+  ^0.0.10: 0.0.10
+ 0.0.10:
+  $: sha1-GwuP+ayceIklBYK3C3ExXZ2m2aM=
+  _: 'https://npme.walmart.com/lcov-parse/-/lcov-parse-0.0.10.tgz'
+levn:
+ _latest: 0.4.1
+ _:
+  '^0.3.0,~0.3.0': 0.3.0
+ 0.3.0:
+  $: sha1-OwmSTt+fCDwEkP3UwLxEIeBHZO4=
+  _: 'https://npme.walmart.com/levn/-/levn-0.3.0.tgz'
+  dependencies:
+   prelude-ls: ~1.1.2
+   type-check: ~0.3.2
+load-json-file:
+ _latest: 6.2.0
+ _:
+  ^1.0.0: 1.1.0
+  ^2.0.0: 2.0.0
+  ^4.0.0: 4.0.0
+ 4.0.0:
+  $: sha1-L19Fq5HjMhYjT9U62rZo607AmTs=
+  _: 'https://npme.walmart.com/load-json-file/-/load-json-file-4.0.0.tgz'
+  dependencies:
+   graceful-fs: ^4.1.2
+   parse-json: ^4.0.0
+   pify: ^3.0.0
+   strip-bom: ^3.0.0
+ 2.0.0:
+  $: sha1-eUfkIUmvgNaWy/eXvKq8/h/inKg=
+  _: 'https://npme.walmart.com/load-json-file/-/load-json-file-2.0.0.tgz'
+  dependencies:
+   graceful-fs: ^4.1.2
+   parse-json: ^2.2.0
+   pify: ^2.0.0
+   strip-bom: ^3.0.0
+ 1.1.0:
+  $: sha1-lWkFcI1YtLq0wiYbBPWfMcmTdMA=
+  _: 'https://npme.walmart.com/load-json-file/-/load-json-file-1.1.0.tgz'
+  dependencies:
+   graceful-fs: ^4.1.2
+   parse-json: ^2.2.0
+   pify: ^2.0.0
+   pinkie-promise: ^2.0.0
+   strip-bom: ^2.0.0
+locate-path:
+ _latest: 6.0.0
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-K1aLJl7slExtnA3pw9u7ygNUzY4=
+  _: 'https://npme.walmart.com/locate-path/-/locate-path-2.0.0.tgz'
+  dependencies:
+   p-locate: ^2.0.0
+   path-exists: ^3.0.0
+lodash:
+ _latest: 4.17.21
+ _:
+  '^4.17.4,^4.2.1,^4.3.0': 4.17.10
+ 4.17.10:
+  $: sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
+  _: 'https://npme.walmart.com/lodash/-/lodash-4.17.10.tgz'
+lodash._reinterpolate:
+ _latest: 3.0.0
+ _:
+  ~3.0.0: 3.0.0
+ 3.0.0:
+  $: sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
+  _: 'https://npme.walmart.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz'
+lodash.template:
+ _latest: 4.5.0
+ _:
+  ^4.0.2: 4.4.0
+ 4.4.0:
+  $: sha1-5zoDhcg1VZF0bgILmWecaQ5o+6A=
+  _: 'https://npme.walmart.com/lodash.template/-/lodash.template-4.4.0.tgz'
+  dependencies:
+   lodash._reinterpolate: ~3.0.0
+   lodash.templatesettings: ^4.0.0
+lodash.templatesettings:
+ _latest: 4.2.0
+ _:
+  ^4.0.0: 4.1.0
+ 4.1.0:
+  $: sha1-K01OlbpEDZFf8IvImeRVNmZxMxY=
+  _: 'https://npme.walmart.com/lodash.templatesettings/-/lodash.templatesettings-4.1.0.tgz'
+  dependencies:
+   lodash._reinterpolate: ~3.0.0
+log-driver:
+ _latest: 1.2.7
+ _:
+  ^1.2.7: 1.2.7
+ 1.2.7:
+  $: sha512-U7KCmLdqsGHBLeWqYlFA0V0Sl6P08EE1ZrmA9cxjUE0WVqT9qnyVDPz1kzpFEP0jdJuFnasWIfSd7fsaNXkpbg==
+  _: 'https://npme.walmart.com/log-driver/-/log-driver-1.2.7.tgz'
+longest:
+ _latest: 2.0.1
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-MKCy2jj3N3DoKUoNIuZiXtd9AJc=
+  _: 'https://npme.walmart.com/longest/-/longest-1.0.1.tgz'
+loose-envify:
+ _latest: 1.4.0
+ _:
+  '^1.0.0,^1.3.1': 1.3.1
+ 1.3.1:
+  $: sha1-0aitM/qc4OcT1l/dCsi3SNR4yEg=
+  _: 'https://npme.walmart.com/loose-envify/-/loose-envify-1.3.1.tgz'
+  dependencies:
+   js-tokens: ^3.0.0
+loud-rejection:
+ _latest: 2.2.0
+ _:
+  ^1.0.0: 1.6.0
+ 1.6.0:
+  $: sha1-W0b4AUft7leIcPCG0Eghz5mOVR8=
+  _: 'https://npme.walmart.com/loud-rejection/-/loud-rejection-1.6.0.tgz'
+  dependencies:
+   currently-unhandled: ^0.4.1
+   signal-exit: ^3.0.0
+lru-cache:
+ _latest: 6.0.0
+ _:
+  ^4.0.1: 4.1.5
+  ^5.1.1: 5.1.1
+ 5.1.1:
+  top: 1
+  $: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==
+  _: 'https://npme.walmart.com/lru-cache/-/lru-cache-5.1.1.tgz'
+  dependencies:
+   yallist: ^3.0.2
+ 4.1.5:
+  $: sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==
+  _: 'https://npme.walmart.com/lru-cache/-/lru-cache-4.1.5.tgz'
+  dependencies:
+   pseudomap: ^1.0.2
+   yallist: ^2.1.2
+map-obj:
+ _latest: 4.2.1
+ _:
+  '^1.0.0,^1.0.1': 1.0.1
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-plzSkIepJZi4eRJXpSPgISIqwfk=
+  _: 'https://npme.walmart.com/map-obj/-/map-obj-2.0.0.tgz'
+ 1.0.1:
+  $: sha1-2TPOuSBdgr3PSIb2dCvcK03qFG0=
+  _: 'https://npme.walmart.com/map-obj/-/map-obj-1.0.1.tgz'
+mem:
+ _latest: 9.0.1
+ _:
+  ^1.1.0: 1.1.0
+ 1.1.0:
+  $: sha1-Xt1StIXKHZAP5kiVUFOZoN+kX3Y=
+  _: 'https://npme.walmart.com/mem/-/mem-1.1.0.tgz'
+  dependencies:
+   mimic-fn: ^1.0.0
+meow:
+ _latest: 10.1.1
+ _:
+  ^3.3.0: 3.7.0
+  ^4.0.0: 4.0.1
+ 4.0.1:
+  $: sha512-xcSBHD5Z86zaOc+781KrupuHAzeGXSLtiAOmBsiLDiPSaYSB6hdew2ng9EBAnZ62jagG9MHAOdxpDi/lWBFJ/A==
+  _: 'https://npme.walmart.com/meow/-/meow-4.0.1.tgz'
+  dependencies:
+   camelcase-keys: ^4.0.0
+   decamelize-keys: ^1.0.0
+   loud-rejection: ^1.0.0
+   minimist: ^1.1.3
+   minimist-options: ^3.0.1
+   normalize-package-data: ^2.3.4
+   read-pkg-up: ^3.0.0
+   redent: ^2.0.0
+   trim-newlines: ^2.0.0
+ 3.7.0:
+  $: sha1-cstmi0JSKCkKu/qFaJJYcwioAfs=
+  _: 'https://npme.walmart.com/meow/-/meow-3.7.0.tgz'
+  dependencies:
+   camelcase-keys: ^2.0.0
+   decamelize: ^1.1.2
+   loud-rejection: ^1.0.0
+   map-obj: ^1.0.1
+   minimist: ^1.1.3
+   normalize-package-data: ^2.3.4
+   object-assign: ^4.0.1
+   read-pkg-up: ^1.0.1
+   redent: ^1.0.0
+   trim-newlines: ^1.0.0
+mime-db:
+ _latest: 1.49.0
+ _:
+  ~1.37.0: 1.37.0
+ 1.37.0:
+  $: sha512-R3C4db6bgQhlIhPU48fUtdVmKnflq+hRdad7IyKhtFj06VPNVdk2RhiYL3UjQIlso8L+YxAtFkobT0VK+S/ybg==
+  _: 'https://npme.walmart.com/mime-db/-/mime-db-1.37.0.tgz'
+mime-types:
+ _latest: 2.1.32
+ _:
+  '^2.1.12,~2.1.19': 2.1.21
+ 2.1.21:
+  $: sha512-3iL6DbwpyLzjR3xHSFNFeb9Nz/M8WDkX33t1GFQnFOllWk8pOrh/LSrB5OXlnlW5P9LH73X6loW/eogc+F5lJg==
+  _: 'https://npme.walmart.com/mime-types/-/mime-types-2.1.21.tgz'
+  dependencies:
+   mime-db: ~1.37.0
+mimic-fn:
+ _latest: 4.0.0
+ _:
+  ^1.0.0: 1.2.0
+ 1.2.0:
+  $: sha512-jf84uxzwiuiIVKiOLpfYk7N46TSy8ubTonmneY9vrpHNAnp0QBt2BxWV9dO3/j+BoVAb+a5G6YDPW3M5HOdMWQ==
+  _: 'https://npme.walmart.com/mimic-fn/-/mimic-fn-1.2.0.tgz'
+minimatch:
+ _latest: 3.0.4
+ _:
+  '^3.0.2,^3.0.3,^3.0.4': 3.0.4
+ 3.0.4:
+  $: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
+  _: 'https://npme.walmart.com/minimatch/-/minimatch-3.0.4.tgz'
+  dependencies:
+   brace-expansion: ^1.1.7
+minimist:
+ _latest: 1.2.5
+ _:
+  '0.0.8,~0.0.1': 0.0.8
+  '^1.1.0,^1.1.3,^1.2.0': 1.2.5
+ 1.2.5:
+  $: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  _: 'https://npme.walmart.com/minimist/-/minimist-1.2.5.tgz'
+ 0.0.8:
+  $: sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
+  _: 'https://npme.walmart.com/minimist/-/minimist-0.0.8.tgz'
+minimist-options:
+ _latest: 4.1.0
+ _:
+  ^3.0.1: 3.0.2
+ 3.0.2:
+  $: sha512-FyBrT/d0d4+uiZRbqznPXqw3IpZZG3gl3wKWiX784FycUKVwBt0uLBFkQrtE4tZOrgo78nZp2jnKz3L65T5LdQ==
+  _: 'https://npme.walmart.com/minimist-options/-/minimist-options-3.0.2.tgz'
+  dependencies:
+   arrify: ^1.0.1
+   is-plain-obj: ^1.1.0
+minipass:
+ _latest: 3.1.3
+ _:
+  '^2.2.0,^2.3.5': 2.3.5
+ 2.3.5:
+  $: sha512-Gi1W4k059gyRbyVUZQ4mEqLm0YIUiGYfvxhF6SIlk3ui1WVxMTGfGdQ2SInh3PDrRTVvPKgULkpJtT4RH10+VA==
+  _: 'https://npme.walmart.com/minipass/-/minipass-2.3.5.tgz'
+  dependencies:
+   safe-buffer: ^5.1.2
+   yallist: ^3.0.0
+mississippi:
+ _latest: 4.0.0
+ _:
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  top: 1
+  $: sha512-x471SsVjUtBRtcvd4BzKE9kFC+/2TeWgKCgw0bZcw1b9l2X3QX5vCWgF+KaZaYm87Ss//rHnWryupDrgLvmSkA==
+  _: 'https://npme.walmart.com/mississippi/-/mississippi-3.0.0.tgz'
+  dependencies:
+   concat-stream: ^1.5.0
+   duplexify: ^3.4.2
+   end-of-stream: ^1.1.0
+   flush-write-stream: ^1.0.0
+   from2: ^2.1.0
+   parallel-transform: ^1.1.0
+   pump: ^3.0.0
+   pumpify: ^1.3.3
+   stream-each: ^1.1.0
+   through2: ^2.0.0
+mkdirp:
+ _latest: 1.0.4
+ _:
+  ^0.5.1: 0.5.1
+ 0.5.1:
+  top: 1
+  $: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
+  _: 'https://npme.walmart.com/mkdirp/-/mkdirp-0.5.1.tgz'
+  dependencies:
+   minimist: 0.0.8
+  deprecated: 'Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)'
+modify-values:
+ _latest: 2.1.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
+  _: 'https://npme.walmart.com/modify-values/-/modify-values-1.0.1.tgz'
+move-concurrently:
+ _latest: 1.0.1
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  top: 1
+  $: sha1-viwAX9oy4LKa8fBdfEszIUxwH5I=
+  _: 'https://npme.walmart.com/move-concurrently/-/move-concurrently-1.0.1.tgz'
+  dependencies:
+   copy-concurrently: ^1.0.0
+   aproba: ^1.1.1
+   fs-write-stream-atomic: ^1.0.8
+   mkdirp: ^0.5.1
+   rimraf: ^2.5.4
+   run-queue: ^1.0.3
+ms:
+ _latest: 2.1.3
+ _:
+  2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+  _: 'https://npme.walmart.com/ms/-/ms-2.0.0.tgz'
+mute-stream:
+ _latest: 0.0.8
+ _:
+  0.0.7: 0.0.7
+ 0.0.7:
+  $: sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
+  _: 'https://npme.walmart.com/mute-stream/-/mute-stream-0.0.7.tgz'
+natural-compare:
+ _latest: 1.4.0
+ _:
+  ^1.4.0: 1.4.0
+ 1.4.0:
+  $: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
+  _: 'https://npme.walmart.com/natural-compare/-/natural-compare-1.4.0.tgz'
+nice-try:
+ _latest: 3.0.0
+ _:
+  ^1.0.4: 1.0.4
+ 1.0.4:
+  $: sha512-2NpiFHqC87y/zFke0fC0spBXL3bBsoh/p5H1EFhshxjCR5+0g2d6BiXbUFz9v1sAcxsk2htp2eQnNIci2dIYcA==
+  _: 'https://npme.walmart.com/nice-try/-/nice-try-1.0.4.tgz'
+node-fetch:
+ _latest: 2.6.1
+ _:
+  ^1.0.1: 1.7.3
+ 1.7.3:
+  $: sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
+  _: 'https://npme.walmart.com/node-fetch/-/node-fetch-1.7.3.tgz'
+  dependencies:
+   encoding: ^0.1.11
+   is-stream: ^1.0.1
+normalize-package-data:
+ _latest: 3.0.2
+ _:
+  '^2.3.0,^2.3.2,^2.3.4,^2.3.5': 2.3.6
+ 2.3.6:
+  $: sha1-SY+kIMlkAfeHQCuiHmAN75+YH/8=
+  _: 'https://npme.walmart.com/normalize-package-data/-/normalize-package-data-2.3.6.tgz'
+  dependencies:
+   hosted-git-info: ^2.1.4
+   is-builtin-module: ^1.0.0
+   semver: '2 || 3 || 4 || 5'
+   validate-npm-package-license: ^3.0.1
+npm-run-path:
+ _latest: 4.0.1
+ _:
+  ^2.0.0: 2.0.2
+ 2.0.2:
+  $: sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8=
+  _: 'https://npme.walmart.com/npm-run-path/-/npm-run-path-2.0.2.tgz'
+  dependencies:
+   path-key: ^2.0.0
+null-check:
+ _latest: 3.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-l33/1xdgErnsMNKjnbXPcqBDnt0=
+  _: 'https://npme.walmart.com/null-check/-/null-check-1.0.0.tgz'
+number-is-nan:
+ _latest: 3.0.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
+  _: 'https://npme.walmart.com/number-is-nan/-/number-is-nan-1.0.1.tgz'
+nyc:
+ _latest: 15.1.0
+ _:
+  ^11.9.0: 11.9.0
+ 11.9.0:
+  $: sha512-w8OdJAhXL5izerzZMdqzYKMj/pgHJyY3qEPYBjLLxrhcVoHEY9pU5ENIiZyCgG9OR7x3VcUMoD40o6PtVpfR4g==
+  _: 'https://npme.walmart.com/nyc/-/nyc-11.9.0.tgz'
+  dependencies:
+   archy: ^1.0.0
+   arrify: ^1.0.1
+   caching-transform: ^1.0.0
+   convert-source-map: ^1.5.1
+   debug-log: ^1.0.1
+   default-require-extensions: ^1.0.0
+   find-cache-dir: ^0.1.1
+   find-up: ^2.1.0
+   foreground-child: ^1.5.3
+   glob: ^7.0.6
+   istanbul-lib-coverage: ^1.1.2
+   istanbul-lib-hook: ^1.1.0
+   istanbul-lib-instrument: ^1.10.0
+   istanbul-lib-report: ^1.1.3
+   istanbul-lib-source-maps: ^1.2.3
+   istanbul-reports: ^1.4.0
+   md5-hex: ^1.2.0
+   merge-source-map: ^1.1.0
+   micromatch: ^3.1.10
+   mkdirp: ^0.5.0
+   resolve-from: ^2.0.0
+   rimraf: ^2.6.2
+   signal-exit: ^3.0.1
+   spawn-wrap: ^1.4.2
+   test-exclude: ^4.2.0
+   yargs: 11.1.0
+   yargs-parser: ^8.0.0
+  bundleDependencies:
+   - archy
+   - arrify
+   - caching-transform
+   - convert-source-map
+   - debug-log
+   - default-require-extensions
+   - find-cache-dir
+   - find-up
+   - foreground-child
+   - glob
+   - istanbul-lib-coverage
+   - istanbul-lib-hook
+   - istanbul-lib-instrument
+   - istanbul-lib-report
+   - istanbul-lib-source-maps
+   - istanbul-reports
+   - md5-hex
+   - merge-source-map
+   - micromatch
+   - mkdirp
+   - resolve-from
+   - rimraf
+   - signal-exit
+   - spawn-wrap
+   - test-exclude
+   - yargs
+   - yargs-parser
+oauth-sign:
+ _latest: 0.9.0
+ _:
+  ~0.9.0: 0.9.0
+ 0.9.0:
+  $: sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
+  _: 'https://npme.walmart.com/oauth-sign/-/oauth-sign-0.9.0.tgz'
+object-assign:
+ _latest: 4.1.1
+ _:
+  '^4.0.1,^4.1.0,^4.1.1': 4.1.1
+ 4.1.1:
+  $: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+  _: 'https://npme.walmart.com/object-assign/-/object-assign-4.1.1.tgz'
+object-keys:
+ _latest: 1.1.1
+ _:
+  ^1.0.8: 1.0.11
+ 1.0.11:
+  $: sha1-xUYBd4rVYPEULODgG8yotW0TQm0=
+  _: 'https://npme.walmart.com/object-keys/-/object-keys-1.0.11.tgz'
+once:
+ _latest: 1.4.0
+ _:
+  '^1.3.0,^1.3.1,^1.4.0': 1.4.0
+ 1.4.0:
+  $: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+  _: 'https://npme.walmart.com/once/-/once-1.4.0.tgz'
+  dependencies:
+   wrappy: '1'
+onetime:
+ _latest: 6.0.0
+ _:
+  ^2.0.0: 2.0.1
+ 2.0.1:
+  $: sha1-BnQoIw/WdEOyeUsiu6UotoZ5YtQ=
+  _: 'https://npme.walmart.com/onetime/-/onetime-2.0.1.tgz'
+  dependencies:
+   mimic-fn: ^1.0.0
+opener:
+ _latest: 1.5.2
+ _:
+  ^1.5.1: 1.5.1
+ 1.5.1:
+  $: sha512-goYSy5c2UXE4Ra1xixabeVh1guIX/ZV/YokJksb6q2lubWu6UbvPQ20p542/sFIll1nl8JnCyK9oBaOcCWXwvA==
+  _: 'https://npme.walmart.com/opener/-/opener-1.5.1.tgz'
+optimist:
+ _latest: 0.6.1
+ _:
+  ^0.6.1: 0.6.1
+ 0.6.1:
+  $: sha1-2j6nRob6IaGaERwybpDrFaAZZoY=
+  _: 'https://npme.walmart.com/optimist/-/optimist-0.6.1.tgz'
+  dependencies:
+   wordwrap: ~0.0.2
+   minimist: ~0.0.1
+optionator:
+ _latest: 0.9.1
+ _:
+  ^0.8.2: 0.8.2
+ 0.8.2:
+  $: sha1-NkxeQJ0/TWMB1sC0wFu6UBgK62Q=
+  _: 'https://npme.walmart.com/optionator/-/optionator-0.8.2.tgz'
+  dependencies:
+   prelude-ls: ~1.1.2
+   deep-is: ~0.1.3
+   wordwrap: ~1.0.0
+   type-check: ~0.3.2
+   levn: ~0.3.0
+   fast-levenshtein: ~2.0.4
+os-homedir:
+ _latest: 2.0.0
+ _:
+  ^1.0.2: 1.0.2
+ 1.0.2:
+  $: sha1-/7xJiDNuDoM94MFox+8VISGqf7M=
+  _: 'https://npme.walmart.com/os-homedir/-/os-homedir-1.0.2.tgz'
+os-locale:
+ _latest: 6.0.0
+ _:
+  ^1.4.0: 1.4.0
+  ^2.0.0: 2.1.0
+ 2.1.0:
+  $: sha512-3sslG3zJbEYcaC4YVAvDorjGxc7tv6KVATnLPZONiljsUncvihe9BQoVCEs0RZ1kmf4Hk9OBqlZfJZWI4GanKA==
+  _: 'https://npme.walmart.com/os-locale/-/os-locale-2.1.0.tgz'
+  dependencies:
+   execa: ^0.7.0
+   lcid: ^1.0.0
+   mem: ^1.1.0
+ 1.4.0:
+  $: sha1-IPnxeuKe00XoveWDsT0gCYA8FNk=
+  _: 'https://npme.walmart.com/os-locale/-/os-locale-1.4.0.tgz'
+  dependencies:
+   lcid: ^1.0.0
+os-tmpdir:
+ _latest: 2.0.0
+ _:
+  ~1.0.2: 1.0.2
+ 1.0.2:
+  $: sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
+  _: 'https://npme.walmart.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz'
+own-or:
+ _latest: 1.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-Tod/vtqaLsgAD7wLyuOWRe6L+Nw=
+  _: 'https://npme.walmart.com/own-or/-/own-or-1.0.0.tgz'
+own-or-env:
+ _latest: 1.0.1
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha512-y8qULRbRAlL6x2+M0vIe7jJbJx/kmUTzYonRAa2ayesR2qWLswninkVyeJe4x3IEXhdgoNodzjQRKAoEs6Fmrw==
+  _: 'https://npme.walmart.com/own-or-env/-/own-or-env-1.0.1.tgz'
+  dependencies:
+   own-or: ^1.0.0
+p-finally:
+ _latest: 3.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-P7z7FbiZpEEjs0ttzBi3JDNqLK4=
+  _: 'https://npme.walmart.com/p-finally/-/p-finally-1.0.0.tgz'
+p-limit:
+ _latest: 3.1.0
+ _:
+  ^1.1.0: 1.2.0
+ 1.2.0:
+  $: sha512-Y/OtIaXtUPr4/YpMv1pCL5L5ed0rumAaAeBSj12F+bSlMdys7i8oQF/GUJmfpTS/QoaRrS/k6pma29haJpsMng==
+  _: 'https://npme.walmart.com/p-limit/-/p-limit-1.2.0.tgz'
+  dependencies:
+   p-try: ^1.0.0
+p-locate:
+ _latest: 5.0.0
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-IKAQOyIqcMj9OcwuWAaA893l7EM=
+  _: 'https://npme.walmart.com/p-locate/-/p-locate-2.0.0.tgz'
+  dependencies:
+   p-limit: ^1.1.0
+p-try:
+ _latest: 2.2.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-y8ec26+P1CKOE/Yh8rGiN8GyB7M=
+  _: 'https://npme.walmart.com/p-try/-/p-try-1.0.0.tgz'
+parallel-transform:
+ _latest: 1.2.0
+ _:
+  ^1.1.0: 1.1.0
+ 1.1.0:
+  $: sha1-1BDwZbBdojCB/NEPKIVMKb2jOwY=
+  _: 'https://npme.walmart.com/parallel-transform/-/parallel-transform-1.1.0.tgz'
+  dependencies:
+   cyclist: ~0.2.2
+   inherits: ^2.0.3
+   readable-stream: ^2.1.5
+parse-github-repo-url:
+ _latest: 1.4.1
+ _:
+  ^1.3.0: 1.4.1
+ 1.4.1:
+  $: sha1-nn2LslKmy2ukJZUGC3v23z28H1A=
+  _: 'https://npme.walmart.com/parse-github-repo-url/-/parse-github-repo-url-1.4.1.tgz'
+parse-json:
+ _latest: 5.2.0
+ _:
+  ^2.2.0: 2.2.0
+  ^4.0.0: 4.0.0
+ 4.0.0:
+  $: sha1-vjX1Qlvh9/bHRxhPmKeIy5lHfuA=
+  _: 'https://npme.walmart.com/parse-json/-/parse-json-4.0.0.tgz'
+  dependencies:
+   error-ex: ^1.3.1
+   json-parse-better-errors: ^1.0.1
+ 2.2.0:
+  $: sha1-9ID0BDTvgHQfhGkJn43qGPVaTck=
+  _: 'https://npme.walmart.com/parse-json/-/parse-json-2.2.0.tgz'
+  dependencies:
+   error-ex: ^1.2.0
+path-exists:
+ _latest: 4.0.0
+ _:
+  ^2.0.0: 2.1.0
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=
+  _: 'https://npme.walmart.com/path-exists/-/path-exists-3.0.0.tgz'
+ 2.1.0:
+  $: sha1-D+tsZPD8UY2adU3V77YscCJ2H0s=
+  _: 'https://npme.walmart.com/path-exists/-/path-exists-2.1.0.tgz'
+  dependencies:
+   pinkie-promise: ^2.0.0
+path-is-absolute:
+ _latest: 2.0.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
+  _: 'https://npme.walmart.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz'
+path-is-inside:
+ _latest: 1.0.2
+ _:
+  '^1.0.1,^1.0.2': 1.0.2
+ 1.0.2:
+  $: sha1-NlQX3t5EQw0cEa9hAn+s8HS9/FM=
+  _: 'https://npme.walmart.com/path-is-inside/-/path-is-inside-1.0.2.tgz'
+path-key:
+ _latest: 4.0.0
+ _:
+  '^2.0.0,^2.0.1': 2.0.1
+ 2.0.1:
+  $: sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
+  _: 'https://npme.walmart.com/path-key/-/path-key-2.0.1.tgz'
+path-parse:
+ _latest: 1.0.7
+ _:
+  ^1.0.5: 1.0.5
+ 1.0.5:
+  $: sha1-PBrfhx6pzWyUMbbqK9dKD/BVxME=
+  _: 'https://npme.walmart.com/path-parse/-/path-parse-1.0.5.tgz'
+path-type:
+ _latest: 5.0.0
+ _:
+  ^1.0.0: 1.1.0
+  ^2.0.0: 2.0.0
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha512-T2ZUsdZFHgA3u4e5PfPbjd7HDDpxPnQb5jN0SrDsjNSuVXHJqtwTnWqG0B1jZrgmJ/7lj1EmVIByWt1gxGkWvg==
+  _: 'https://npme.walmart.com/path-type/-/path-type-3.0.0.tgz'
+  dependencies:
+   pify: ^3.0.0
+ 2.0.0:
+  $: sha1-8BLMuEFbcJb8LaoQVMPXI4lZTHM=
+  _: 'https://npme.walmart.com/path-type/-/path-type-2.0.0.tgz'
+  dependencies:
+   pify: ^2.0.0
+ 1.1.0:
+  $: sha1-WcRPfuSR2nBNpBXaWkBwuk+P5EE=
+  _: 'https://npme.walmart.com/path-type/-/path-type-1.1.0.tgz'
+  dependencies:
+   graceful-fs: ^4.1.2
+   pify: ^2.0.0
+   pinkie-promise: ^2.0.0
+performance-now:
+ _latest: 2.1.0
+ _:
+  ^2.1.0: 2.1.0
+ 2.1.0:
+  $: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+  _: 'https://npme.walmart.com/performance-now/-/performance-now-2.1.0.tgz'
+pify:
+ _latest: 5.0.0
+ _:
+  '^2.0.0,^2.3.0': 2.3.0
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
+  _: 'https://npme.walmart.com/pify/-/pify-3.0.0.tgz'
+ 2.3.0:
+  $: sha1-7RQaasBDqEnqWISY59yosVMw6Qw=
+  _: 'https://npme.walmart.com/pify/-/pify-2.3.0.tgz'
+pinkie:
+ _latest: 2.0.4
+ _:
+  ^2.0.0: 2.0.4
+ 2.0.4:
+  $: sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
+  _: 'https://npme.walmart.com/pinkie/-/pinkie-2.0.4.tgz'
+pinkie-promise:
+ _latest: 2.0.1
+ _:
+  ^2.0.0: 2.0.1
+ 2.0.1:
+  $: sha1-ITXW36ejWMBprJsXh3YogihFD/o=
+  _: 'https://npme.walmart.com/pinkie-promise/-/pinkie-promise-2.0.1.tgz'
+  dependencies:
+   pinkie: ^2.0.0
+pkg-conf:
+ _latest: 3.1.0
+ _:
+  ^2.0.0: 2.1.0
+ 2.1.0:
+  $: sha1-ISZRTKbyq/69FoWW3xi6V4Z/AFg=
+  _: 'https://npme.walmart.com/pkg-conf/-/pkg-conf-2.1.0.tgz'
+  dependencies:
+   find-up: ^2.0.0
+   load-json-file: ^4.0.0
+pkg-config:
+ _latest: 1.1.1
+ _:
+  ^1.1.0: 1.1.1
+ 1.1.1:
+  $: sha1-VX7yLXPaPIg3EHdmxS6tq94pj+Q=
+  _: 'https://npme.walmart.com/pkg-config/-/pkg-config-1.1.1.tgz'
+  dependencies:
+   debug-log: ^1.0.0
+   find-root: ^1.0.0
+   xtend: ^4.0.1
+pkg-dir:
+ _latest: 5.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-ektQio1bstYp1EcFb/TpyTFM89Q=
+  _: 'https://npme.walmart.com/pkg-dir/-/pkg-dir-1.0.0.tgz'
+  dependencies:
+   find-up: ^1.0.0
+platform:
+ _latest: 1.3.6
+ _:
+  ^1.3.3: 1.3.4
+ 1.3.4:
+  $: sha1-bw+xftqqSPIUQrOpdcBjEw8cPr0=
+  _: 'https://npme.walmart.com/platform/-/platform-1.3.4.tgz'
+pluralize:
+ _latest: 8.0.0
+ _:
+  ^7.0.0: 7.0.0
+ 7.0.0:
+  $: sha512-ARhBOdzS3e41FbkW/XWrTEtukqqLoK5+Z/4UeDaLuSW+39JPeFgs4gCGqsrJHVZX0fUrx//4OF0K1CUGwlIFow==
+  _: 'https://npme.walmart.com/pluralize/-/pluralize-7.0.0.tgz'
+prelude-ls:
+ _latest: 1.2.1
+ _:
+  ~1.1.2: 1.1.2
+ 1.1.2:
+  $: sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
+  _: 'https://npme.walmart.com/prelude-ls/-/prelude-ls-1.1.2.tgz'
+process-nextick-args:
+ _latest: 2.0.1
+ _:
+  ~1.0.6: 1.0.7
+ 1.0.7:
+  $: sha1-FQ4gt1ZZCtP5EJPyWk8q2L/zC6M=
+  _: 'https://npme.walmart.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz'
+progress:
+ _latest: 2.0.3
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-ihvjZr+Pwj2yvSPxDG/pILQ4nR8=
+  _: 'https://npme.walmart.com/progress/-/progress-2.0.0.tgz'
+promise:
+ _latest: 8.1.0
+ _:
+  ^7.1.1: 7.3.1
+ 7.3.1:
+  $: sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==
+  _: 'https://npme.walmart.com/promise/-/promise-7.3.1.tgz'
+  dependencies:
+   asap: ~2.0.3
+promise-inflight:
+ _latest: 1.0.1
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  top: 1
+  $: sha1-mEcocL8igTL8vdhoEputEsPAKeM=
+  _: 'https://npme.walmart.com/promise-inflight/-/promise-inflight-1.0.1.tgz'
+prop-types:
+ _latest: 15.7.2
+ _:
+  ^15.6.0: 15.6.1
+ 15.6.1:
+  $: sha512-4ec7bY1Y66LymSUOH/zARVYObB23AT2h8cf6e/O6ZALB/N0sqZFEx7rq6EYPX2MkOdKORuooI/H5k9TlR4q7kQ==
+  _: 'https://npme.walmart.com/prop-types/-/prop-types-15.6.1.tgz'
+  dependencies:
+   fbjs: ^0.8.16
+   loose-envify: ^1.3.1
+   object-assign: ^4.1.1
+pseudomap:
+ _latest: 1.0.2
+ _:
+  ^1.0.2: 1.0.2
+ 1.0.2:
+  $: sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
+  _: 'https://npme.walmart.com/pseudomap/-/pseudomap-1.0.2.tgz'
+psl:
+ _latest: 1.8.0
+ _:
+  ^1.1.24: 1.1.31
+ 1.1.31:
+  $: sha512-/6pt4+C+T+wZUieKR620OpzN/LlnNKuWjy1iFLQ/UG35JqHlR/89MP1d96dUfkf6Dne3TuLQzOYEYshJ+Hx8mw==
+  _: 'https://npme.walmart.com/psl/-/psl-1.1.31.tgz'
+pump:
+ _latest: 3.0.0
+ _:
+  ^2.0.0: 2.0.1
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha512-LwZy+p3SFs1Pytd/jYct4wpv49HiYCqd9Rlc5ZVdk0V+8Yzv6jR5Blk3TRmPL1ft69TxP0IMZGJ+WPFU2BFhww==
+  _: 'https://npme.walmart.com/pump/-/pump-3.0.0.tgz'
+  dependencies:
+   end-of-stream: ^1.1.0
+   once: ^1.3.1
+ 2.0.1:
+  $: sha512-ruPMNRkN3MHP1cWJc9OWr+T/xDP0jhXYCLfJcBuX54hhfIBnaQmAUMfDcG4DM5UMWByBbJY69QSphm3jtDKIkA==
+  _: 'https://npme.walmart.com/pump/-/pump-2.0.1.tgz'
+  dependencies:
+   end-of-stream: ^1.1.0
+   once: ^1.3.1
+pumpify:
+ _latest: 2.0.1
+ _:
+  ^1.3.3: 1.4.0
+ 1.4.0:
+  $: sha512-2kmNR9ry+Pf45opRVirpNuIFotsxUGLaYqxIwuR77AYrYRMuFCz9eryHBS52L360O+NcR383CL4QYlMKPq4zYA==
+  _: 'https://npme.walmart.com/pumpify/-/pumpify-1.4.0.tgz'
+  dependencies:
+   duplexify: ^3.5.3
+   inherits: ^2.0.3
+   pump: ^2.0.0
+punycode:
+ _latest: 2.1.1
+ _:
+  '^1.3.2,^1.4.1': 1.4.1
+  ^2.1.0: 2.1.1
+ 2.1.1:
+  $: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+  _: 'https://npme.walmart.com/punycode/-/punycode-2.1.1.tgz'
+ 1.4.1:
+  $: sha1-wNWmOycYgArY4esPpSachN1BhF4=
+  _: 'https://npme.walmart.com/punycode/-/punycode-1.4.1.tgz'
+q:
+ _latest: 1.5.1
+ _:
+  '^1.4.1,^1.5.1': 1.5.1
+ 1.5.1:
+  $: sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
+  _: 'https://npme.walmart.com/q/-/q-1.5.1.tgz'
+qs:
+ _latest: 6.10.1
+ _:
+  ~6.5.2: 6.5.2
+ 6.5.2:
+  $: sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  _: 'https://npme.walmart.com/qs/-/qs-6.5.2.tgz'
+quick-lru:
+ _latest: 6.0.1
+ _:
+  ^1.0.0: 1.1.0
+ 1.1.0:
+  $: sha1-Q2CxfGETatOAeDl/8RQW4Ybc+7g=
+  _: 'https://npme.walmart.com/quick-lru/-/quick-lru-1.1.0.tgz'
+read-pkg:
+ _latest: 6.0.0
+ _:
+  '^1.0.0,^1.1.0': 1.1.0
+  ^2.0.0: 2.0.0
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha1-nLxoaXj+5l0WwA4rGcI3/Pbjg4k=
+  _: 'https://npme.walmart.com/read-pkg/-/read-pkg-3.0.0.tgz'
+  dependencies:
+   load-json-file: ^4.0.0
+   normalize-package-data: ^2.3.2
+   path-type: ^3.0.0
+ 2.0.0:
+  $: sha1-jvHAYjxqbbDcZxPEv6xGMysjaPg=
+  _: 'https://npme.walmart.com/read-pkg/-/read-pkg-2.0.0.tgz'
+  dependencies:
+   load-json-file: ^2.0.0
+   normalize-package-data: ^2.3.2
+   path-type: ^2.0.0
+ 1.1.0:
+  $: sha1-9f+qXs0pyzHAR0vKfXVra7KePyg=
+  _: 'https://npme.walmart.com/read-pkg/-/read-pkg-1.1.0.tgz'
+  dependencies:
+   load-json-file: ^1.0.0
+   normalize-package-data: ^2.3.2
+   path-type: ^1.0.0
+read-pkg-up:
+ _latest: 8.0.0
+ _:
+  ^1.0.1: 1.0.1
+  ^2.0.0: 2.0.0
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha1-PtSWaF26D4/hGNBpHcUfSh/5bwc=
+  _: 'https://npme.walmart.com/read-pkg-up/-/read-pkg-up-3.0.0.tgz'
+  dependencies:
+   find-up: ^2.0.0
+   read-pkg: ^3.0.0
+ 2.0.0:
+  $: sha1-a3KoBImE4MQeeVEP1en6mbO1Sb4=
+  _: 'https://npme.walmart.com/read-pkg-up/-/read-pkg-up-2.0.0.tgz'
+  dependencies:
+   find-up: ^2.0.0
+   read-pkg: ^2.0.0
+ 1.0.1:
+  $: sha1-nWPBMnbAZZGNV/ACpX9AobZD+wI=
+  _: 'https://npme.walmart.com/read-pkg-up/-/read-pkg-up-1.0.1.tgz'
+  dependencies:
+   find-up: ^1.0.0
+   read-pkg: ^1.0.0
+readable-stream:
+ _latest: 3.6.0
+ _:
+  '1 || 2,^2,^2.0.0,^2.0.4,^2.1.5,^2.2.2': 2.2.9
+ 2.2.9:
+  $: sha1-z3jsb0ptHrQ9JkiMrJfwQudLf8g=
+  _: 'https://npme.walmart.com/readable-stream/-/readable-stream-2.2.9.tgz'
+  dependencies:
+   buffer-shims: ~1.0.0
+   core-util-is: ~1.0.0
+   isarray: ~1.0.0
+   inherits: ~2.0.1
+   process-nextick-args: ~1.0.6
+   string_decoder: ~1.0.0
+   util-deprecate: ~1.0.1
+redent:
+ _latest: 4.0.0
+ _:
+  ^1.0.0: 1.0.0
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-wbIAe0LVfrE4kHmzyDM2OdXhzKo=
+  _: 'https://npme.walmart.com/redent/-/redent-2.0.0.tgz'
+  dependencies:
+   indent-string: ^3.0.0
+   strip-indent: ^2.0.0
+ 1.0.0:
+  $: sha1-z5Fqsf1fHxbfsggi3W7H9zDCr94=
+  _: 'https://npme.walmart.com/redent/-/redent-1.0.0.tgz'
+  dependencies:
+   indent-string: ^2.1.0
+   strip-indent: ^1.0.1
+repeat-string:
+ _latest: 1.6.1
+ _:
+  ^1.5.2: 1.6.1
+ 1.6.1:
+  $: sha1-jcrkcOHIirwtYA//Sndihtp15jc=
+  _: 'https://npme.walmart.com/repeat-string/-/repeat-string-1.6.1.tgz'
+repeating:
+ _latest: 4.0.0
+ _:
+  ^2.0.0: 2.0.1
+ 2.0.1:
+  $: sha1-UhTFOpJtNVJwdSf7q0FdvAjQbdo=
+  _: 'https://npme.walmart.com/repeating/-/repeating-2.0.1.tgz'
+  dependencies:
+   is-finite: ^1.0.0
+request:
+ _latest: 2.88.2
+ _:
+  ^2.85.0: 2.88.0
+ 2.88.0:
+  $: sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==
+  _: 'https://npme.walmart.com/request/-/request-2.88.0.tgz'
+  dependencies:
+   aws-sign2: ~0.7.0
+   aws4: ^1.8.0
+   caseless: ~0.12.0
+   combined-stream: ~1.0.6
+   extend: ~3.0.2
+   forever-agent: ~0.6.1
+   form-data: ~2.3.2
+   har-validator: ~5.1.0
+   http-signature: ~1.2.0
+   is-typedarray: ~1.0.0
+   isstream: ~0.1.2
+   json-stringify-safe: ~5.0.1
+   mime-types: ~2.1.19
+   oauth-sign: ~0.9.0
+   performance-now: ^2.1.0
+   qs: ~6.5.2
+   safe-buffer: ^5.1.2
+   tough-cookie: ~2.4.3
+   tunnel-agent: ^0.6.0
+   uuid: ^3.3.2
+  deprecated: 'request has been deprecated, see https://github.com/request/request/issues/3142'
+require-directory:
+ _latest: 2.1.1
+ _:
+  ^2.1.1: 2.1.1
+ 2.1.1:
+  $: sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
+  _: 'https://npme.walmart.com/require-directory/-/require-directory-2.1.1.tgz'
+require-inject:
+ _latest: 1.4.4
+ _:
+  ^1.4.2: 1.4.3
+ 1.4.3:
+  top: 1
+  $: sha512-AwIeUR1jA8ARt20brFU2DfW62z5e3rzMZC/Q1I1lKoOlxtroSUqjRGKyOL8m+7qmnFGbZvV8lUjtcHgtuLDl6Q==
+  _: 'https://npme.walmart.com/require-inject/-/require-inject-1.4.3.tgz'
+  dependencies:
+   caller: ^1.0.1
+require-main-filename:
+ _latest: 2.0.0
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-l/cXtp1IeE9fUmpsWqj/3aBVpNE=
+  _: 'https://npme.walmart.com/require-main-filename/-/require-main-filename-1.0.1.tgz'
+require-uncached:
+ _latest: 2.0.0
+ _:
+  ^1.0.3: 1.0.3
+ 1.0.3:
+  $: sha1-Tg1W1slmL9MeQwEcS5WqSZVUIdM=
+  _: 'https://npme.walmart.com/require-uncached/-/require-uncached-1.0.3.tgz'
+  dependencies:
+   caller-path: ^0.1.0
+   resolve-from: ^1.0.0
+resolve:
+ _latest: 1.20.0
+ _:
+  '^1.3.3,^1.5.0': 1.7.0
+ 1.7.0:
+  $: sha512-QdgZ5bjR1WAlpLaO5yHepFvC+o3rCr6wpfE2tpJNMkXdulf2jKomQBdNRQITF3ZKHNlT71syG98yQP03gasgnA==
+  _: 'https://npme.walmart.com/resolve/-/resolve-1.7.0.tgz'
+  dependencies:
+   path-parse: ^1.0.5
+resolve-from:
+ _latest: 5.0.0
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha1-Jsv+k10a7uq7Kbw/5a6wHpPUQiY=
+  _: 'https://npme.walmart.com/resolve-from/-/resolve-from-1.0.1.tgz'
+restore-cursor:
+ _latest: 3.1.0
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-n37ih/gv0ybU/RYpI9YhKe7g368=
+  _: 'https://npme.walmart.com/restore-cursor/-/restore-cursor-2.0.0.tgz'
+  dependencies:
+   onetime: ^2.0.0
+   signal-exit: ^3.0.2
+right-align:
+ _latest: 0.1.3
+ _:
+  ^0.1.1: 0.1.3
+ 0.1.3:
+  $: sha1-YTObci/mo1FWiSENJOFMlhSGE+8=
+  _: 'https://npme.walmart.com/right-align/-/right-align-0.1.3.tgz'
+  dependencies:
+   align-text: ^0.1.1
+rimraf:
+ _latest: 3.0.2
+ _:
+  '^2.2.8,^2.5.4,^2.6.2': 2.6.2
+ 2.6.2:
+  top: 1
+  $: sha512-lreewLK/BlghmxtfH36YYVg1i8IAce4TI7oao75I1g245+6BctqTVQiBP3YUJ9C6DQOXJmkYR9X9fCLtCOJc5w==
+  _: 'https://npme.walmart.com/rimraf/-/rimraf-2.6.2.tgz'
+  dependencies:
+   glob: ^7.0.5
+run-async:
+ _latest: 2.4.1
+ _:
+  ^2.2.0: 2.3.0
+ 2.3.0:
+  $: sha1-A3GrSuC91yDUFm19/aZP96RFpsA=
+  _: 'https://npme.walmart.com/run-async/-/run-async-2.3.0.tgz'
+  dependencies:
+   is-promise: ^2.1.0
+run-parallel:
+ _latest: 1.2.0
+ _:
+  ^1.1.2: 1.1.8
+ 1.1.8:
+  $: sha512-e5t1NVhr5VWmD9V9U4KjjSGkf5w6CcTPgw11A3CfIvkkQxlAKzX3usPUp1NUQTmpOOjU+f9QRICU3tMbKwn9ZQ==
+  _: 'https://npme.walmart.com/run-parallel/-/run-parallel-1.1.8.tgz'
+run-queue:
+ _latest: 2.0.1
+ _:
+  '^1.0.0,^1.0.3': 1.0.3
+ 1.0.3:
+  $: sha1-6Eg5bwV9Ij8kOGkkYY4laUFh7Ec=
+  _: 'https://npme.walmart.com/run-queue/-/run-queue-1.0.3.tgz'
+  dependencies:
+   aproba: ^1.1.1
+rx-lite:
+ _latest: 4.0.8
+ _:
+  '*,^4.0.8': 4.0.8
+ 4.0.8:
+  $: sha1-Cx4Rr4vESDbwSmQH6S2kJGe3lEQ=
+  _: 'https://npme.walmart.com/rx-lite/-/rx-lite-4.0.8.tgz'
+rx-lite-aggregates:
+ _latest: 4.0.8
+ _:
+  ^4.0.8: 4.0.8
+ 4.0.8:
+  $: sha1-dTuHqJoRyVRnxKwWJsTvxOBcZ74=
+  _: 'https://npme.walmart.com/rx-lite-aggregates/-/rx-lite-aggregates-4.0.8.tgz'
+  dependencies:
+   rx-lite: '*'
+safe-buffer:
+ _latest: 5.2.1
+ _:
+  '^5.0.1,^5.1.2': 5.1.2
+ 5.1.2:
+  $: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+  _: 'https://npme.walmart.com/safe-buffer/-/safe-buffer-5.1.2.tgz'
+safer-buffer:
+ _latest: 2.1.2
+ _:
+  '^2.0.2,^2.1.0,~2.1.0': 2.1.2
+ 2.1.2:
+  $: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+  _: 'https://npme.walmart.com/safer-buffer/-/safer-buffer-2.1.2.tgz'
+semver:
+ _latest: 7.3.5
+ _:
+  '2 || 3 || 4 || 5,^5.1.0,^5.3.0,^5.4.1,^5.5.0': 5.5.0
+ 5.5.0:
+  $: sha512-4SJ3dm0WAwWy/NVeioZh5AntkdJoWKxHxcmyP622fOkgHa4z3R0TdBJICINyaSDE6uNwVc8gZr+ZinwZAH4xIA==
+  _: 'https://npme.walmart.com/semver/-/semver-5.5.0.tgz'
+set-blocking:
+ _latest: 2.0.0
+ _:
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
+  _: 'https://npme.walmart.com/set-blocking/-/set-blocking-2.0.0.tgz'
+setimmediate:
+ _latest: 1.0.5
+ _:
+  ^1.0.5: 1.0.5
+ 1.0.5:
+  $: sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=
+  _: 'https://npme.walmart.com/setimmediate/-/setimmediate-1.0.5.tgz'
+shebang-command:
+ _latest: 2.0.0
+ _:
+  ^1.2.0: 1.2.0
+ 1.2.0:
+  $: sha1-RKrGW2lbAzmJaMOfNj/uXer98eo=
+  _: 'https://npme.walmart.com/shebang-command/-/shebang-command-1.2.0.tgz'
+  dependencies:
+   shebang-regex: ^1.0.0
+shebang-regex:
+ _latest: 3.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-2kL0l0DAtC2yypcoVxyxkMmO/qM=
+  _: 'https://npme.walmart.com/shebang-regex/-/shebang-regex-1.0.0.tgz'
+signal-exit:
+ _latest: 3.0.3
+ _:
+  '^3.0.0,^3.0.2': 3.0.2
+ 3.0.2:
+  $: sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+  _: 'https://npme.walmart.com/signal-exit/-/signal-exit-3.0.2.tgz'
+slice-ansi:
+ _latest: 5.0.0
+ _:
+  1.0.0: 1.0.0
+ 1.0.0:
+  $: sha512-POqxBK6Lb3q6s047D/XsDVNPnF9Dl8JSaqe9h9lURl0OdNqy/ujDrOiIHtsqXMGbWWTIomRzAMaTyawAU//Reg==
+  _: 'https://npme.walmart.com/slice-ansi/-/slice-ansi-1.0.0.tgz'
+  dependencies:
+   is-fullwidth-code-point: ^2.0.0
+source-map:
+ _latest: 0.7.3
+ _:
+  ^0.4.4: 0.4.4
+  ^0.6.0: 0.6.1
+  ~0.5.1: 0.5.7
+ 0.6.1:
+  $: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
+  _: 'https://npme.walmart.com/source-map/-/source-map-0.6.1.tgz'
+ 0.5.7:
+  $: sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
+  _: 'https://npme.walmart.com/source-map/-/source-map-0.5.7.tgz'
+ 0.4.4:
+  $: sha1-66T12pwNyZneaAMti092FzZSA2s=
+  _: 'https://npme.walmart.com/source-map/-/source-map-0.4.4.tgz'
+  dependencies:
+   amdefine: '>=0.0.4'
+source-map-support:
+ _latest: 0.5.19
+ _:
+  ^0.5.9: 0.5.9
+ 0.5.9:
+  $: sha512-gR6Rw4MvUlYy83vP0vxoVNzM6t8MUXqNuRsuBmBHQDu1Fh6X015FrLdgoDKcNdkwGubozq0P4N0Q37UyFVr1EA==
+  _: 'https://npme.walmart.com/source-map-support/-/source-map-support-0.5.9.tgz'
+  dependencies:
+   buffer-from: ^1.0.0
+   source-map: ^0.6.0
+spdx-correct:
+ _latest: 3.1.1
+ _:
+  ~1.0.0: 1.0.2
+ 1.0.2:
+  $: sha1-SzBz2TP/UfORLwOsVRlJikFQ20A=
+  _: 'https://npme.walmart.com/spdx-correct/-/spdx-correct-1.0.2.tgz'
+  dependencies:
+   spdx-license-ids: ^1.0.2
+spdx-expression-parse:
+ _latest: 3.0.1
+ _:
+  ~1.0.0: 1.0.4
+ 1.0.4:
+  $: sha1-m98vIOH0DtRH++JzJmGR/O1RYmw=
+  _: 'https://npme.walmart.com/spdx-expression-parse/-/spdx-expression-parse-1.0.4.tgz'
+spdx-license-ids:
+ _latest: 3.0.10
+ _:
+  ^1.0.2: 1.2.2
+ 1.2.2:
+  $: sha1-yd96NCRZSt5r0RkA1ZZpbcBrrFc=
+  _: 'https://npme.walmart.com/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz'
+split:
+ _latest: 1.0.1
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha512-mTyOoPbrivtXnwnIxZRFYRrPNtEFKlpB2fvjSnCQUiAA6qAZzqwna5envK4uk6OIeP17CsdF3rSBGYVBsU0Tkg==
+  _: 'https://npme.walmart.com/split/-/split-1.0.1.tgz'
+  dependencies:
+   through: '2'
+split2:
+ _latest: 3.2.2
+ _:
+  ^2.0.0: 2.2.0
+ 2.2.0:
+  $: sha512-RAb22TG39LhI31MbreBgIuKiIKhVsawfTgEGqKHTK87aG+ul/PB8Sqoi3I7kVdRWiCfrKxK3uo4/YUkpNvhPbw==
+  _: 'https://npme.walmart.com/split2/-/split2-2.2.0.tgz'
+  dependencies:
+   through2: ^2.0.2
+sprintf-js:
+ _latest: 1.1.2
+ _:
+  ~1.0.2: 1.0.3
+ 1.0.3:
+  $: sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
+  _: 'https://npme.walmart.com/sprintf-js/-/sprintf-js-1.0.3.tgz'
+sshpk:
+ _latest: 1.16.1
+ _:
+  ^1.7.0: 1.16.0
+ 1.16.0:
+  $: sha512-Zhev35/y7hRMcID/upReIvRse+I9SVhyVre/KTJSJQWMz3C3+G+HpO7m1wK/yckEtujKZ7dS4hkVxAnmHaIGVQ==
+  _: 'https://npme.walmart.com/sshpk/-/sshpk-1.16.0.tgz'
+  dependencies:
+   asn1: ~0.2.3
+   assert-plus: ^1.0.0
+   dashdash: ^1.12.0
+   getpass: ^0.1.1
+   safer-buffer: ^2.0.2
+   jsbn: ~0.1.0
+   tweetnacl: ~0.14.0
+   ecc-jsbn: ~0.1.1
+   bcrypt-pbkdf: ^1.0.0
+ssri:
+ _latest: 8.0.1
+ _:
+  ^6.0.1: 6.0.1
+ 6.0.1:
+  top: 1
+  $: sha512-3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA==
+  _: 'https://npme.walmart.com/ssri/-/ssri-6.0.1.tgz'
+  dependencies:
+   figgy-pudding: ^3.5.1
+stack-utils:
+ _latest: 2.0.3
+ _:
+  ^1.0.0: 1.0.2
+ 1.0.2:
+  $: sha512-MTX+MeG5U994cazkjd/9KNAapsHnibjMLnfXodlkXw76JEea0UiNzrqidzo1emMwk7w5Qhc9jd4Bn9TBb1MFwA==
+  _: 'https://npme.walmart.com/stack-utils/-/stack-utils-1.0.2.tgz'
+standard:
+ _latest: 16.0.3
+ _:
+  ^11.0.1: 11.0.1
+ 11.0.1:
+  top: 1
+  $: sha512-nu0jAcHiSc8H+gJCXeiziMVZNDYi8MuqrYJKxTgjP4xKXZMKm311boqQIzDrYI/ktosltxt2CbDjYQs9ANC8IA==
+  _: 'https://npme.walmart.com/standard/-/standard-11.0.1.tgz'
+  dependencies:
+   eslint: ~4.18.0
+   eslint-config-standard: 11.0.0
+   eslint-config-standard-jsx: 5.0.0
+   eslint-plugin-import: ~2.9.0
+   eslint-plugin-node: ~6.0.0
+   eslint-plugin-promise: ~3.7.0
+   eslint-plugin-react: ~7.7.0
+   eslint-plugin-standard: ~3.0.1
+   standard-engine: ~8.0.0
+standard-engine:
+ _latest: 14.0.1
+ _:
+  ~8.0.0: 8.0.1
+ 8.0.1:
+  $: sha512-LA531C3+nljom/XRvdW/hGPXwmilRkaRkENhO3FAGF1Vtq/WtCXzgmnc5S6vUHHsgv534MRy02C1ikMwZXC+tw==
+  _: 'https://npme.walmart.com/standard-engine/-/standard-engine-8.0.1.tgz'
+  dependencies:
+   deglob: ^2.1.0
+   get-stdin: ^6.0.0
+   minimist: ^1.1.0
+   pkg-conf: ^2.0.0
+standard-version:
+ _latest: 9.3.1
+ _:
+  ^4.4.0: 4.4.0
+ 4.4.0:
+  top: 1
+  $: sha512-jJ8FZhnmh9xJRQLnaXiGRLaAUNItIH29lOQZGpL5fd4+jUHto9Ij6SPCYN86h6ZNNXkYq2TYiIVVF7gVyC+pcQ==
+  _: 'https://npme.walmart.com/standard-version/-/standard-version-4.4.0.tgz'
+  dependencies:
+   chalk: ^1.1.3
+   conventional-changelog: ^1.1.0
+   conventional-recommended-bump: ^1.0.0
+   dotgitignore: ^1.0.3
+   figures: ^1.5.0
+   fs-access: ^1.0.0
+   semver: ^5.1.0
+   yargs: ^8.0.1
+stream-each:
+ _latest: 1.2.3
+ _:
+  ^1.1.0: 1.2.2
+ 1.2.2:
+  $: sha512-mc1dbFhGBxvTM3bIWmAAINbqiuAk9TATcfIQC8P+/+HJefgaiTlMn2dHvkX8qlI12KeYKSQ1Ua9RrIqrn1VPoA==
+  _: 'https://npme.walmart.com/stream-each/-/stream-each-1.2.2.tgz'
+  dependencies:
+   end-of-stream: ^1.1.0
+   stream-shift: ^1.0.0
+stream-shift:
+ _latest: 1.0.1
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-1cdSgl5TZ+eG944Y5EXqIjoVWVI=
+  _: 'https://npme.walmart.com/stream-shift/-/stream-shift-1.0.0.tgz'
+string-width:
+ _latest: 5.0.0
+ _:
+  '^1.0.1,^1.0.2': 1.0.2
+  '^2.0.0,^2.1.0,^2.1.1': 2.1.1
+ 2.1.1:
+  $: sha512-nOqH59deCq9SRHlxq1Aw85Jnt4w6KvLKqWVik6oA9ZklXLNIOlqg4F2yrT1MVaTjAqvVwdfeZ7w7aCvJD7ugkw==
+  _: 'https://npme.walmart.com/string-width/-/string-width-2.1.1.tgz'
+  dependencies:
+   is-fullwidth-code-point: ^2.0.0
+   strip-ansi: ^4.0.0
+ 1.0.2:
+  $: sha1-EYvfW4zcUaKn5w0hHgfisLmxB9M=
+  _: 'https://npme.walmart.com/string-width/-/string-width-1.0.2.tgz'
+  dependencies:
+   code-point-at: ^1.0.0
+   is-fullwidth-code-point: ^1.0.0
+   strip-ansi: ^3.0.0
+string_decoder:
+ _latest: 1.3.0
+ _:
+  ~1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-8G9BFXtmTYYGn4S9vcmw2KsoFmc=
+  _: 'https://npme.walmart.com/string_decoder/-/string_decoder-1.0.0.tgz'
+  dependencies:
+   buffer-shims: ~1.0.0
+strip-ansi:
+ _latest: 7.0.0
+ _:
+  '^3.0.0,^3.0.1': 3.0.1
+  ^4.0.0: 4.0.0
+ 4.0.0:
+  $: sha1-qEeQIusaw2iocTibY1JixQXuNo8=
+  _: 'https://npme.walmart.com/strip-ansi/-/strip-ansi-4.0.0.tgz'
+  dependencies:
+   ansi-regex: ^3.0.0
+ 3.0.1:
+  $: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
+  _: 'https://npme.walmart.com/strip-ansi/-/strip-ansi-3.0.1.tgz'
+  dependencies:
+   ansi-regex: ^2.0.0
+strip-bom:
+ _latest: 5.0.0
+ _:
+  ^2.0.0: 2.0.0
+  ^3.0.0: 3.0.0
+ 3.0.0:
+  $: sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=
+  _: 'https://npme.walmart.com/strip-bom/-/strip-bom-3.0.0.tgz'
+ 2.0.0:
+  $: sha1-YhmoVhZSBJHzV4i9vxRHqZx+aw4=
+  _: 'https://npme.walmart.com/strip-bom/-/strip-bom-2.0.0.tgz'
+  dependencies:
+   is-utf8: ^0.2.0
+strip-eof:
+ _latest: 2.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-u0P/VZim6wXYm1n80SnJgzE2Br8=
+  _: 'https://npme.walmart.com/strip-eof/-/strip-eof-1.0.0.tgz'
+strip-indent:
+ _latest: 4.0.0
+ _:
+  ^1.0.1: 1.0.1
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-XvjbKV0B5u1sv3qrlpmNeCJSe2g=
+  _: 'https://npme.walmart.com/strip-indent/-/strip-indent-2.0.0.tgz'
+ 1.0.1:
+  $: sha1-DHlipq3vp7vUrDZkYKY4VSrhoKI=
+  _: 'https://npme.walmart.com/strip-indent/-/strip-indent-1.0.1.tgz'
+  dependencies:
+   get-stdin: ^4.0.1
+strip-json-comments:
+ _latest: 3.1.1
+ _:
+  ~2.0.1: 2.0.1
+ 2.0.1:
+  $: sha1-PFMZQukIwml8DsNEhYwobHygpgo=
+  _: 'https://npme.walmart.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz'
+supports-color:
+ _latest: 9.0.2
+ _:
+  ^2.0.0: 2.0.0
+  ^5.3.0: 5.4.0
+ 5.4.0:
+  $: sha512-zjaXglF5nnWpsq470jSv6P9DwPvgLkuapYmfDm3JWOm0vkNTVF2tI4UrN2r6jH1qM/uc/WtxYY1hYoA2dOKj5w==
+  _: 'https://npme.walmart.com/supports-color/-/supports-color-5.4.0.tgz'
+  dependencies:
+   has-flag: ^3.0.0
+ 2.0.0:
+  $: sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
+  _: 'https://npme.walmart.com/supports-color/-/supports-color-2.0.0.tgz'
+table:
+ _latest: 6.7.1
+ _:
+  4.0.2: 4.0.2
+ 4.0.2:
+  $: sha512-UUkEAPdSGxtRpiV9ozJ5cMTtYiqz7Ni1OGqLXRCynrvzdtR1p+cfOWe2RJLwvUG8hNanaSRjecIqwOjqeatDsA==
+  _: 'https://npme.walmart.com/table/-/table-4.0.2.tgz'
+  dependencies:
+   ajv: ^5.2.3
+   ajv-keywords: ^2.1.0
+   chalk: ^2.1.0
+   lodash: ^4.17.4
+   slice-ansi: 1.0.0
+   string-width: ^2.1.1
+tacks:
+ _latest: 1.3.0
+ _:
+  ^1.2.7: 1.2.7
+ 1.2.7:
+  top: 1
+  $: sha512-gaIFMB31ql8FX9wZylfw68BXj0NlB+e1LUmmQsy3aOXUA8DO2MpiO3mua87sZHfpnp95jrnNzGcoW9iYTTsJtg==
+  _: 'https://npme.walmart.com/tacks/-/tacks-1.2.7.tgz'
+  dependencies:
+   '@iarna/cli': ^2.0.0
+   mkdirp: ^0.5.1
+   rimraf: ^2.6.2
+  bundleDependencies:
+   - '@iarna/cli'
+   - mkdirp
+   - rimraf
+tap:
+ _latest: 15.0.9
+ _:
+  ^12.1.1: 12.1.1
+ 12.1.1:
+  top: 1
+  $: sha512-YPxCIzgrjCjdVt1F71snGLyebbAcbCs5uh74f5GPBkXFbcMgLjuDnopva+vgs9cqVv4mtSYBuxRS1/8C2ed7MQ==
+  _: 'https://npme.walmart.com/tap/-/tap-12.1.1.tgz'
+  dependencies:
+   bind-obj-methods: ^2.0.0
+   bluebird: ^3.5.3
+   browser-process-hrtime: ^1.0.0
+   capture-stack-trace: ^1.0.0
+   clean-yaml-object: ^0.1.0
+   color-support: ^1.1.0
+   coveralls: ^3.0.2
+   domain-browser: ^1.2.0
+   foreground-child: ^1.3.3
+   fs-exists-cached: ^1.0.0
+   function-loop: ^1.0.1
+   glob: ^7.1.3
+   isexe: ^2.0.0
+   js-yaml: ^3.12.0
+   minipass: ^2.3.5
+   mkdirp: ^0.5.1
+   nyc: ^11.9.0
+   opener: ^1.5.1
+   os-homedir: ^1.0.2
+   own-or: ^1.0.0
+   own-or-env: ^1.0.1
+   rimraf: ^2.6.2
+   signal-exit: ^3.0.0
+   source-map-support: ^0.5.9
+   stack-utils: ^1.0.0
+   tap-mocha-reporter: ^3.0.7
+   tap-parser: ^7.0.0
+   tmatch: ^4.0.0
+   trivial-deferred: ^1.0.1
+   tsame: ^2.0.1
+   write-file-atomic: ^2.3.0
+   yapool: ^1.0.0
+tap-mocha-reporter:
+ _latest: 5.0.1
+ _:
+  ^3.0.7: 3.0.7
+ 3.0.7:
+  $: sha512-GHVXJ38C3oPRpM3YUc43JlGdpVZYiKeT1fmAd3HH2+J+ZWwsNAUFvRRdoGsXLw9+gU9o+zXpBqhS/oXyRQYwlA==
+  _: 'https://npme.walmart.com/tap-mocha-reporter/-/tap-mocha-reporter-3.0.7.tgz'
+  dependencies:
+   color-support: ^1.1.0
+   debug: ^2.1.3
+   diff: ^1.3.2
+   escape-string-regexp: ^1.0.3
+   glob: ^7.0.5
+   js-yaml: ^3.3.1
+   tap-parser: ^5.1.0
+   unicode-length: ^1.0.0
+  optionalDependencies:
+   readable-stream: ^2.1.5
+tap-parser:
+ _latest: 10.1.0
+ _:
+  ^5.1.0: 5.4.0
+  ^7.0.0: 7.0.0
+ 7.0.0:
+  $: sha512-05G8/LrzqOOFvZhhAk32wsGiPZ1lfUrl+iV7+OkKgfofZxiceZWMHkKmow71YsyVQ8IvGBP2EjcIjE5gL4l5lA==
+  _: 'https://npme.walmart.com/tap-parser/-/tap-parser-7.0.0.tgz'
+  dependencies:
+   events-to-array: ^1.0.1
+   js-yaml: ^3.2.7
+   minipass: ^2.2.0
+ 5.4.0:
+  $: sha512-BIsIaGqv7uTQgTW1KLTMNPSEQf4zDDPgYOBRdgOfuB+JFOLRBfEu6cLa/KvMvmqggu1FKXDfitjLwsq4827RvA==
+  _: 'https://npme.walmart.com/tap-parser/-/tap-parser-5.4.0.tgz'
+  dependencies:
+   events-to-array: ^1.0.1
+   js-yaml: ^3.2.7
+  optionalDependencies:
+   readable-stream: ^2
+text-extensions:
+ _latest: 2.4.0
+ _:
+  ^1.0.0: 1.7.0
+ 1.7.0:
+  $: sha512-AKXZeDq230UaSzaO5s3qQUZOaC7iKbzq0jOFL614R7d9R593HLqAOL0cYoqLdkNrjBSOdmoQI06yigq1TSBXAg==
+  _: 'https://npme.walmart.com/text-extensions/-/text-extensions-1.7.0.tgz'
+text-table:
+ _latest: 0.2.0
+ _:
+  ~0.2.0: 0.2.0
+ 0.2.0:
+  $: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
+  _: 'https://npme.walmart.com/text-table/-/text-table-0.2.0.tgz'
+through:
+ _latest: 2.3.8
+ _:
+  '2,>=2.2.7 <3,^2.3.6': 2.3.8
+ 2.3.8:
+  $: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
+  _: 'https://npme.walmart.com/through/-/through-2.3.8.tgz'
+through2:
+ _latest: 4.0.2
+ _:
+  '^2.0.0,^2.0.2': 2.0.3
+ 2.0.3:
+  $: sha1-AARWmzfHx0ujnEPzzteNGtlBQL4=
+  _: 'https://npme.walmart.com/through2/-/through2-2.0.3.tgz'
+  dependencies:
+   readable-stream: ^2.1.5
+   xtend: ~4.0.1
+tmatch:
+ _latest: 5.0.0
+ _:
+  ^4.0.0: 4.0.0
+ 4.0.0:
+  $: sha512-Ynn2Gsp+oCvYScQXeV+cCs7citRDilq0qDXA6tuvFwDgiYyyaq7D5vKUlAPezzZR5NDobc/QMeN6e5guOYmvxg==
+  _: 'https://npme.walmart.com/tmatch/-/tmatch-4.0.0.tgz'
+tmp:
+ _latest: 0.2.1
+ _:
+  ^0.0.33: 0.0.33
+ 0.0.33:
+  $: sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw==
+  _: 'https://npme.walmart.com/tmp/-/tmp-0.0.33.tgz'
+  dependencies:
+   os-tmpdir: ~1.0.2
+tough-cookie:
+ _latest: 4.0.0
+ _:
+  ~2.4.3: 2.4.3
+ 2.4.3:
+  $: sha512-Q5srk/4vDM54WJsJio3XNn6K2sCG+CQ8G5Wz6bZhRZoAe/+TxjWB/GlFAnYEbkYVlON9FMk/fE3h2RLpPXo4lQ==
+  _: 'https://npme.walmart.com/tough-cookie/-/tough-cookie-2.4.3.tgz'
+  dependencies:
+   psl: ^1.1.24
+   punycode: ^1.4.1
+trim-newlines:
+ _latest: 4.0.2
+ _:
+  ^1.0.0: 1.0.0
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-tAPQuRvlDDMd/EuC7s6yLD3hbSA=
+  _: 'https://npme.walmart.com/trim-newlines/-/trim-newlines-2.0.0.tgz'
+ 1.0.0:
+  $: sha1-WIeWa7WCpFA6QetST301ARgVphM=
+  _: 'https://npme.walmart.com/trim-newlines/-/trim-newlines-1.0.0.tgz'
+trim-off-newlines:
+ _latest: 1.0.1
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  $: sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
+  _: 'https://npme.walmart.com/trim-off-newlines/-/trim-off-newlines-1.0.1.tgz'
+trivial-deferred:
+ _latest: 1.0.1
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-N21NKdlR1jaKb3oK6FwvTV4GWPM=
+  _: 'https://npme.walmart.com/trivial-deferred/-/trivial-deferred-1.0.1.tgz'
+tsame:
+ _latest: 2.0.1
+ _:
+  ^2.0.1: 2.0.1
+ 2.0.1:
+  $: sha512-jxyxgKVKa4Bh5dPcO42TJL22lIvfd9LOVJwdovKOnJa4TLLrHxquK+DlGm4rkGmrcur+GRx+x4oW00O2pY/fFw==
+  _: 'https://npme.walmart.com/tsame/-/tsame-2.0.1.tgz'
+tunnel-agent:
+ _latest: 0.6.0
+ _:
+  ^0.6.0: 0.6.0
+ 0.6.0:
+  $: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
+  _: 'https://npme.walmart.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz'
+  dependencies:
+   safe-buffer: ^5.0.1
+tweetnacl:
+ _latest: 1.0.3
+ _:
+  '^0.14.3,~0.14.0': 0.14.5
+ 0.14.5:
+  $: sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+  _: 'https://npme.walmart.com/tweetnacl/-/tweetnacl-0.14.5.tgz'
+type-check:
+ _latest: 0.4.0
+ _:
+  ~0.3.2: 0.3.2
+ 0.3.2:
+  $: sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=
+  _: 'https://npme.walmart.com/type-check/-/type-check-0.3.2.tgz'
+  dependencies:
+   prelude-ls: ~1.1.2
+typedarray:
+ _latest: 0.0.6
+ _:
+  ^0.0.6: 0.0.6
+ 0.0.6:
+  $: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+  _: 'https://npme.walmart.com/typedarray/-/typedarray-0.0.6.tgz'
+ua-parser-js:
+ _latest: 0.7.28
+ _:
+  ^0.7.9: 0.7.17
+ 0.7.17:
+  $: sha512-uRdSdu1oA1rncCQL7sCj8vSyZkgtL7faaw9Tc9rZ3mGgraQ7+Pdx7w5mnOSF3gw9ZNG6oc+KXfkon3bKuROm0g==
+  _: 'https://npme.walmart.com/ua-parser-js/-/ua-parser-js-0.7.17.tgz'
+uglify-js:
+ _latest: 3.14.1
+ _:
+  ^2.6: 2.8.29
+ 2.8.29:
+  $: sha1-KcVzMUgFe7Th913zW3qcty5qWd0=
+  _: 'https://npme.walmart.com/uglify-js/-/uglify-js-2.8.29.tgz'
+  dependencies:
+   source-map: ~0.5.1
+   yargs: ~3.10.0
+  optionalDependencies:
+   uglify-to-browserify: ~1.0.0
+uglify-to-browserify:
+ _latest: 2.1.0
+ _:
+  ~1.0.0: 1.0.2
+ 1.0.2:
+  $: sha1-bgkk1r2mta/jSeOabWMoUKD4grc=
+  _: 'https://npme.walmart.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz'
+unicode-length:
+ _latest: 2.0.2
+ _:
+  ^1.0.0: 1.0.3
+ 1.0.3:
+  $: sha1-Wtp6f+1RhBpBijKM8UlHisg1irs=
+  _: 'https://npme.walmart.com/unicode-length/-/unicode-length-1.0.3.tgz'
+  dependencies:
+   punycode: ^1.3.2
+   strip-ansi: ^3.0.1
+uniq:
+ _latest: 1.0.1
+ _:
+  ^1.0.1: 1.0.1
+ 1.0.1:
+  $: sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=
+  _: 'https://npme.walmart.com/uniq/-/uniq-1.0.1.tgz'
+unique-filename:
+ _latest: 1.1.1
+ _:
+  ^1.1.1: 1.1.1
+ 1.1.1:
+  top: 1
+  $: sha512-Vmp0jIp2ln35UTXuryvjzkjGdRyf9b2lTXuSYUiPmzRcl3FDtYqAwOnTJkAngD9SWhnoJzDbTKwaOrZ+STtxNQ==
+  _: 'https://npme.walmart.com/unique-filename/-/unique-filename-1.1.1.tgz'
+  dependencies:
+   unique-slug: ^2.0.0
+unique-slug:
+ _latest: 2.0.2
+ _:
+  ^2.0.0: 2.0.1
+ 2.0.1:
+  $: sha512-n9cU6+gITaVu7VGj1Z8feKMmfAjEAQGhwD9fE3zvpRRa0wEIx8ODYkVGfSc94M2OX00tUFV8wH3zYbm1I8mxFg==
+  _: 'https://npme.walmart.com/unique-slug/-/unique-slug-2.0.1.tgz'
+  dependencies:
+   imurmurhash: ^0.1.4
+uri-js:
+ _latest: 4.4.1
+ _:
+  ^4.2.2: 4.2.2
+ 4.2.2:
+  $: sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==
+  _: 'https://npme.walmart.com/uri-js/-/uri-js-4.2.2.tgz'
+  dependencies:
+   punycode: ^2.1.0
+util-deprecate:
+ _latest: 1.0.2
+ _:
+  ~1.0.1: 1.0.2
+ 1.0.2:
+  $: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+  _: 'https://npme.walmart.com/util-deprecate/-/util-deprecate-1.0.2.tgz'
+uuid:
+ _latest: 8.3.2
+ _:
+  ^3.3.2: 3.3.2
+ 3.3.2:
+  $: sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+  _: 'https://npme.walmart.com/uuid/-/uuid-3.3.2.tgz'
+  deprecated: 'Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.'
+validate-npm-package-license:
+ _latest: 3.0.4
+ _:
+  ^3.0.1: 3.0.1
+ 3.0.1:
+  $: sha1-KAS6vnEq0zeUWaz74kdGqywwP7w=
+  _: 'https://npme.walmart.com/validate-npm-package-license/-/validate-npm-package-license-3.0.1.tgz'
+  dependencies:
+   spdx-correct: ~1.0.0
+   spdx-expression-parse: ~1.0.0
+verror:
+ _latest: 1.10.0
+ _:
+  1.10.0: 1.10.0
+ 1.10.0:
+  $: sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=
+  _: 'https://npme.walmart.com/verror/-/verror-1.10.0.tgz'
+  dependencies:
+   assert-plus: ^1.0.0
+   core-util-is: 1.0.2
+   extsprintf: ^1.2.0
+weallbehave:
+ _latest: 1.2.0
+ _:
+  ^1.2.0: 1.2.0
+ 1.2.0:
+  top: 1
+  $: sha1-hR79VUAlo06O8kmeR4DEQHcyFhs=
+  _: 'https://npme.walmart.com/weallbehave/-/weallbehave-1.2.0.tgz'
+  dependencies:
+   yargs: ^6.6.0
+weallcontribute:
+ _latest: 1.0.9
+ _:
+  ^1.0.8: 1.0.8
+ 1.0.8:
+  top: 1
+  $: sha1-kYAe6ysQBnjoRLcgvdh1Q8Mc2Qo=
+  _: 'https://npme.walmart.com/weallcontribute/-/weallcontribute-1.0.8.tgz'
+  dependencies:
+   hosted-git-info: ^2.2.0
+   yargs: ^6.6.0
+whatwg-fetch:
+ _latest: 3.6.2
+ _:
+  '>=0.10.0': 2.0.4
+ 2.0.4:
+  $: sha512-dcQ1GWpOD/eEQ97k66aiEVpNnapVj90/+R+SXTPYGHpYBBypfKJEQjLrvMZ7YXbKm21gXd4NcuxUTjiv1YtLng==
+  _: 'https://npme.walmart.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz'
+which:
+ _latest: 2.0.2
+ _:
+  ^1.2.9: 1.3.0
+ 1.3.0:
+  $: sha512-xcJpopdamTuY5duC/KnTTNBraPK54YwpenP4lzxU8H91GudWpFv38u0CKjclE1Wi2EH2EDz5LRcHcKbCIzqGyg==
+  _: 'https://npme.walmart.com/which/-/which-1.3.0.tgz'
+  dependencies:
+   isexe: ^2.0.0
+which-module:
+ _latest: 2.0.0
+ _:
+  ^1.0.0: 1.0.0
+  ^2.0.0: 2.0.0
+ 2.0.0:
+  $: sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=
+  _: 'https://npme.walmart.com/which-module/-/which-module-2.0.0.tgz'
+ 1.0.0:
+  $: sha1-u6Y8qGGUiZT/MHc2CJ47lgJsKk8=
+  _: 'https://npme.walmart.com/which-module/-/which-module-1.0.0.tgz'
+window-size:
+ _latest: 1.1.1
+ _:
+  0.1.0: 0.1.0
+ 0.1.0:
+  $: sha1-VDjNLqk7IC76Ohn+iIeu58lPnJ0=
+  _: 'https://npme.walmart.com/window-size/-/window-size-0.1.0.tgz'
+wordwrap:
+ _latest: 1.0.0
+ _:
+  0.0.2: 0.0.2
+  ~0.0.2: 0.0.3
+  ~1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-J1hIEIkUVqQXHI0CJkQa3pDLyus=
+  _: 'https://npme.walmart.com/wordwrap/-/wordwrap-1.0.0.tgz'
+ 0.0.3:
+  $: sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
+  _: 'https://npme.walmart.com/wordwrap/-/wordwrap-0.0.3.tgz'
+ 0.0.2:
+  $: sha1-t5Zpu0LstAn4PVg8rVLKF+qhZD8=
+  _: 'https://npme.walmart.com/wordwrap/-/wordwrap-0.0.2.tgz'
+wrap-ansi:
+ _latest: 8.0.0
+ _:
+  ^2.0.0: 2.1.0
+ 2.1.0:
+  $: sha1-2Pw9KE3QV5T+hJc8rs3Rz4JP3YU=
+  _: 'https://npme.walmart.com/wrap-ansi/-/wrap-ansi-2.1.0.tgz'
+  dependencies:
+   string-width: ^1.0.1
+   strip-ansi: ^3.0.1
+wrappy:
+ _latest: 1.0.2
+ _:
+  '1': 1.0.2
+ 1.0.2:
+  $: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+  _: 'https://npme.walmart.com/wrappy/-/wrappy-1.0.2.tgz'
+write:
+ _latest: 2.0.0
+ _:
+  ^0.2.1: 0.2.1
+ 0.2.1:
+  $: sha1-X8A4KOJkzqP+kUVUdvejxWbLB1c=
+  _: 'https://npme.walmart.com/write/-/write-0.2.1.tgz'
+  dependencies:
+   mkdirp: ^0.5.1
+write-file-atomic:
+ _latest: 3.0.3
+ _:
+  ^2.3.0: 2.3.0
+ 2.3.0:
+  $: sha512-xuPeK4OdjWqtfi59ylvVL0Yn35SF3zgcAcv7rBPFHVaEapaDr4GdGgm3j7ckTwH9wHL7fGmgfAnb0+THrHb8tA==
+  _: 'https://npme.walmart.com/write-file-atomic/-/write-file-atomic-2.3.0.tgz'
+  dependencies:
+   graceful-fs: ^4.1.11
+   imurmurhash: ^0.1.4
+   signal-exit: ^3.0.2
+xtend:
+ _latest: 4.0.2
+ _:
+  '^4.0.1,~4.0.1': 4.0.1
+ 4.0.1:
+  $: sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
+  _: 'https://npme.walmart.com/xtend/-/xtend-4.0.1.tgz'
+y18n:
+ _latest: 5.0.8
+ _:
+  ^3.2.1: 3.2.1
+  ^4.0.0: 4.0.0
+ 4.0.0:
+  top: 1
+  $: sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  _: 'https://npme.walmart.com/y18n/-/y18n-4.0.0.tgz'
+ 3.2.1:
+  $: sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  _: 'https://npme.walmart.com/y18n/-/y18n-3.2.1.tgz'
+yallist:
+ _latest: 4.0.0
+ _:
+  ^2.1.2: 2.1.2
+  '^3.0.0,^3.0.2': 3.0.3
+ 3.0.3:
+  $: sha512-S+Zk8DEWE6oKpV+vI3qWkaK+jSbIK86pCwe2IF/xwIpQ8jEuxpw9NyaGjmp9+BoJv5FV2piqCDcoCtStppiq2A==
+  _: 'https://npme.walmart.com/yallist/-/yallist-3.0.3.tgz'
+ 2.1.2:
+  $: sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
+  _: 'https://npme.walmart.com/yallist/-/yallist-2.1.2.tgz'
+yapool:
+ _latest: 1.0.0
+ _:
+  ^1.0.0: 1.0.0
+ 1.0.0:
+  $: sha1-9pPymjFbUNmp2iZGp6ZkXJaYW2o=
+  _: 'https://npme.walmart.com/yapool/-/yapool-1.0.0.tgz'
+yargs:
+ _latest: 17.1.0
+ _:
+  ^6.6.0: 6.6.0
+  ^8.0.1: 8.0.2
+  ~3.10.0: 3.10.0
+ 8.0.2:
+  $: sha1-YpmpBVsc78lp/355wdkY3Osiw2A=
+  _: 'https://npme.walmart.com/yargs/-/yargs-8.0.2.tgz'
+  dependencies:
+   camelcase: ^4.1.0
+   cliui: ^3.2.0
+   decamelize: ^1.1.1
+   get-caller-file: ^1.0.1
+   os-locale: ^2.0.0
+   read-pkg-up: ^2.0.0
+   require-directory: ^2.1.1
+   require-main-filename: ^1.0.1
+   set-blocking: ^2.0.0
+   string-width: ^2.0.0
+   which-module: ^2.0.0
+   y18n: ^3.2.1
+   yargs-parser: ^7.0.0
+ 6.6.0:
+  $: sha1-eC7CHvQDNF+DCoCMo9UTr1YGUgg=
+  _: 'https://npme.walmart.com/yargs/-/yargs-6.6.0.tgz'
+  dependencies:
+   camelcase: ^3.0.0
+   cliui: ^3.2.0
+   decamelize: ^1.1.1
+   get-caller-file: ^1.0.1
+   os-locale: ^1.4.0
+   read-pkg-up: ^1.0.1
+   require-directory: ^2.1.1
+   require-main-filename: ^1.0.1
+   set-blocking: ^2.0.0
+   string-width: ^1.0.2
+   which-module: ^1.0.0
+   y18n: ^3.2.1
+   yargs-parser: ^4.2.0
+ 3.10.0:
+  $: sha1-9+572FfdfB0tOMDnTvvWgdFDH9E=
+  _: 'https://npme.walmart.com/yargs/-/yargs-3.10.0.tgz'
+  dependencies:
+   camelcase: ^1.0.2
+   cliui: ^2.1.0
+   decamelize: ^1.0.0
+   window-size: 0.1.0
+yargs-parser:
+ _latest: 20.2.9
+ _:
+  ^4.2.0: 4.2.1
+  ^7.0.0: 7.0.0
+ 7.0.0:
+  $: sha1-jQrELxbqVd69MyyvTEA4s+P139k=
+  _: 'https://npme.walmart.com/yargs-parser/-/yargs-parser-7.0.0.tgz'
+  dependencies:
+   camelcase: ^4.1.0
+ 4.2.1:
+  $: sha1-KczqwNxPA8bIe0qfIX3RjJ90hxw=
+  _: 'https://npme.walmart.com/yargs-parser/-/yargs-parser-4.2.1.tgz'
+  dependencies:
+   camelcase: ^3.0.0
