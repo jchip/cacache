@@ -1,6 +1,9 @@
+$fyn:
+ layout: normal
+ flattenTop: true
 $pkg:
  dep:
-  bluebird: ^3.5.3
+  bluebird: ^3.7.2
   chownr: ^1.1.1
   figgy-pudding: ^3.5.1
   glob: ^7.1.3
@@ -296,11 +299,11 @@ bind-obj-methods:
 bluebird:
  _latest: 3.7.2
  _:
-  ^3.5.3: 3.5.3
- 3.5.3:
+  '^3.5.3,^3.7.2': 3.7.2
+ 3.7.2:
   top: 1
-  $: sha512-/qKPUQlaW1OyR51WeCPBvRnAlnZFUJkCSG5HzGnuIqhgyJtF+T94lFnn33eiazjRm2LAHVy2guNnaq48X9SJuw==
-  _: 'https://npme.walmart.com/bluebird/-/bluebird-3.5.3.tgz'
+  $: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
+  _: 'https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz'
 brace-expansion:
  _latest: 2.0.1
  _:
